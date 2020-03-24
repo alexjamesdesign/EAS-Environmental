@@ -21,6 +21,83 @@ header {
     }
 }
 
+.desktop-top-bar {
+    position: relative;
+    display: flex;
+    z-index: 1000;
+
+    &__menu {
+        background: $red;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+    }
+
+    &__phone-top-right {
+        display: none;
+    
+        @include bp800 {
+            display: inline-block;
+            padding: 20px;
+            width: 400px;
+            background: $blue;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+        }
+
+        img {
+            width: 47px;
+            margin-right: 15px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a {
+            color: $blanc;
+            display: block;
+            font-weight: 700;
+        }
+
+        .ld-phonenumber {
+            color: $blanc;
+            padding: 0px 20px 0px 0px;
+            border-right: 1px solid #49516F;
+        }
+
+        .ld-location {
+            color: $blanc;
+            padding: 0px 0px 0px 20px;
+
+            .ld-area {
+                padding: 0px 5px 0px 0px;
+            }
+
+            .ld-number {
+                display: block;
+            }
+        }
+    }
+}
+
+.desktop-header-main {
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.67);
+}
+
+
+
 .logo {
     display: block;
     width: 100%;
@@ -35,15 +112,5 @@ header {
 
     @include bp800 {
         float: left;
-    }
-}
-
-.phone-top-right {
-    display: none;
-
-    @include bp800 {
-        float: right;
-        display: block;
-        padding: 20px;
     }
 }

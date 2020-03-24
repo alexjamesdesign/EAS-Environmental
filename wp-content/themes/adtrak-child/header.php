@@ -69,10 +69,9 @@
 
 		<header>
 
-			<div class="top-bar">
+			<div class="desktop-top-bar">
 
-				<div class="container">
-
+				<div class="desktop-top-bar__menu">
 					<?php
 					// Secondary Menu
 						if(has_nav_menu('secondary')) {
@@ -83,12 +82,13 @@
 							]);
 						}
 					?>
-
 				</div>
 
-			</div>
+		        <?php include locate_template('parts/phone-top-right.php'); ?>
 
-			<div class="container">
+			</div>
+			
+			<div class="desktop-header-main">
 
 				<a href="<?php echo home_url(); ?>">
 					<?php $image = get_field('site_logo','option'); if( !empty($image) ): ?>
@@ -96,21 +96,19 @@
 					<?php endif; ?>
 				</a>
 
-		        <?php include locate_template('parts/phone-top-right.php'); ?>
+				<nav id="navigation" class="desktop-nav">
+					<div>
+						<?php
+						// Primary menu for desktop
+							wp_nav_menu([
+								'menu' => 'Primary Menu',
+								'menu_class' => "menu-primary",
+								'container' => ''
+							]);
+						?>
+					</div>
+				</nav>
 
-		    </div>
-
-			<nav id="navigation" class="desktop-nav">
-				<div>
-					<?php
-					// Primary menu for desktop
-						wp_nav_menu([
-							'menu' => 'Primary Menu',
-							'menu_class' => "menu-primary",
-							'container' => ''
-						]);
-					?>
-				</div>
-			</nav>
+			</div>
 
 		</header>

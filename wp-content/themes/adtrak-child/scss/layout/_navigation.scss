@@ -118,16 +118,16 @@
 
 // Secondary
 
-.top-bar #menu-secondary-menu {
+.desktop-top-bar #menu-secondary-menu {
     display: none;
 }
 
-.top-bar #menu-secondary-menu {
+.desktop-top-bar #menu-secondary-menu {
 
     @include bp800 {
         clear: both;
         display: block;
-        text-align: right;
+        text-align: left;
 
         li {
             display: inline;
@@ -157,7 +157,7 @@
         a {
             display: inline-block;
             text-decoration: none;
-            color: $noir;
+            color: $blanc;
             padding: 14px 6px;
             font-size: 1.4rem;
 
