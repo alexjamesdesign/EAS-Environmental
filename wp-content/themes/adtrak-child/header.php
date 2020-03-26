@@ -40,20 +40,7 @@
 		if (get_field('schema', 'options')) echo get_field('schema', 'options');
 	?>
 
-	<?php /* Typekit async loading
-
-	<script>
-	   WebFontConfig = {
-	      typekit: { id: 'xxxxxx' }
-	   };
-
-	   (function(d) {
-	      var wf = d.createElement('script'), s = d.scripts[0];
-	      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-	      wf.async = true;
-	      s.parentNode.insertBefore(wf, s);
-	   })(document);
-	</script> */ ?>
+	<link rel="stylesheet" href="https://use.typekit.net/vax5nbt.css">
 
 </head>
 
@@ -72,42 +59,50 @@
 			<div class="desktop-top-bar">
 
 				<div class="desktop-top-bar__menu">
-					<?php
-					// Secondary Menu
-						if(has_nav_menu('secondary')) {
-							wp_nav_menu([
-								'menu' => 'Secondary Menu',
-								'menu_class' => "menu-secondary",
-								'container' => ''
-							]);
-						}
-					?>
+
+					<div class="container">
+						<?php
+						// Secondary Menu
+							if(has_nav_menu('secondary')) {
+								wp_nav_menu([
+									'menu' => 'Secondary Menu',
+									'menu_class' => "menu-secondary",
+									'container' => ''
+								]);
+							}
+						?>
+					</div>
+
 				</div>
 
 		        <?php include locate_template('parts/phone-top-right.php'); ?>
 
 			</div>
 			
-			<div class="desktop-header-main">
+			<div class="header-main">
 
-				<a href="<?php echo home_url(); ?>">
-					<?php $image = get_field('site_logo','option'); if( !empty($image) ): ?>
-						<img class="logo" src="<?php echo $image['url']; ?>" alt="<?php bloginfo('title'); ?> Logo" />
-					<?php endif; ?>
-				</a>
+				<div class="header-main__container container">
 
-				<nav id="navigation" class="desktop-nav">
-					<div>
-						<?php
-						// Primary menu for desktop
-							wp_nav_menu([
-								'menu' => 'Primary Menu',
-								'menu_class' => "menu-primary",
-								'container' => ''
-							]);
-						?>
-					</div>
-				</nav>
+					<a href="<?php echo home_url(); ?>">
+						<?php $image = get_field('site_logo','option'); if( !empty($image) ): ?>
+							<img class="logo" src="<?php echo $image['url']; ?>" alt="<?php bloginfo('title'); ?> Logo" />
+						<?php endif; ?>
+					</a>
+
+					<nav id="navigation" class="desktop-nav">
+						<div>
+							<?php
+							// Primary menu for desktop
+								wp_nav_menu([
+									'menu' => 'Primary Menu',
+									'menu_class' => "menu-primary",
+									'container' => ''
+								]);
+							?>
+						</div>
+					</nav>
+
+				</div>
 
 			</div>
 
