@@ -8,7 +8,8 @@
     left: 0;
     width: 100%;
     height: $mobile-top-bar-height;
-    background: #eee;
+    background: $blue;
+    text-transform: uppercase;
     @include flexbox();
     @include clearfix;
 
@@ -23,16 +24,18 @@
     padding: 8px;
     text-align: center;
     text-decoration: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
 
     &--menu {
         width: 35%;
         color: $blanc;
-        background: $noir;
+        background: $red;
     }
     
     // Used when only one number is in the mobile top bar
     &--single-number {
         width: 65%;
+        color: $blanc;
 
         &:before {
             display: inline-block;
@@ -42,7 +45,8 @@
         }
 
         a {
-            color: $noir;        
+            color: $blanc;
+            text-decoration: none;       
         }
     }
 }

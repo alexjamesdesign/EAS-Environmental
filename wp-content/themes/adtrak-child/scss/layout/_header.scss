@@ -33,6 +33,7 @@ header {
         top: 0;
         left: 0;
         display: inline-block;
+        padding: 0px 0px 0px 10px;
     }
 
     &__phone-top-right {
@@ -48,7 +49,6 @@ header {
             right: 0;
             display: flex;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);
-
         }
 
         img {
@@ -94,7 +94,6 @@ header {
     width: 100%;
     background: rgba(255, 255, 255, 0.67);
     margin-top: 40px;
-    z-index: 2000;
 
     @include bp800 {
         margin-top: 50px;

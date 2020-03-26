@@ -1,6 +1,6 @@
 <div class="mobile-top-bar Fixed">
 
-	<span class="mobile-top-btn mobile-top-btn--single-number"><?php do_action('ld_default', false); ?></span>
+	<span class="mobile-top-btn mobile-top-btn--single-number"><?php do_action("ld_list", false, 'dropdown', 'Call Us Today'); ?></span>
 
 	<?php
 
