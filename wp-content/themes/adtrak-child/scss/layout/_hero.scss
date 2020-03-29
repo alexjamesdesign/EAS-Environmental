@@ -10,7 +10,7 @@
     &__container {
         position: relative;   
         min-height: 540px;  
-        padding: 120px 0px 0px 0px;
+        padding: 147px 0px 0px 0px;
 
         @include bp800 {
             min-height: 630px;  
@@ -22,13 +22,17 @@
         position: absolute;
         text-align: center;
         width: 100%;
-        padding: 0px 50px;
+        padding: 0px 30px;
         color: $blanc;
         text-transform: uppercase;
         max-width: 970px;
         top: 62%;
         left: 50%;
         transform: translate(-50%,-50%);
+
+        @include bp800 {
+            padding: 0px 50px;
+        }
     }
 
     .primary {

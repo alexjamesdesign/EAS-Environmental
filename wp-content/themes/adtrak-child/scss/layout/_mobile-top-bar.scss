@@ -9,6 +9,7 @@
     width: 100%;
     height: $mobile-top-bar-height;
     background: $blue;
+    z-index: 5000;
     text-transform: uppercase;
     @include flexbox();
     @include clearfix;
@@ -21,10 +22,13 @@
 .mobile-top-btn {
     display: inline-block;
     float: left;
-    padding: 8px;
+    padding: 20px 8px;
     text-align: center;
     text-decoration: none;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    font-family: pragmatica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
     &--menu {
         width: 35%;
@@ -36,17 +40,30 @@
     &--single-number {
         width: 65%;
         color: $blanc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        &:before {
-            display: inline-block;
-            margin-right: 10px;
-            content: '\f095';
-            font-family: "FontAwesome";
+        // &:before {
+        //     display: inline-block;
+        //     margin-right: 10px;
+        //     content: '\f095';
+        //     font-family: "FontAwesome";
+        //     background-image: "../images/icon-phone.svg";
+        // }
+
+        img {
+            width: 35px;
+            height: 35px;
+            margin-right: 8px;
         }
 
         a {
             color: $blanc;
-            text-decoration: none;       
+            text-decoration: none;  
+            font-family: pragmatica,sans-serif;
+            font-weight: 700;
+            font-style: normal;     
         }
     }
 }

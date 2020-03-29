@@ -24,7 +24,7 @@ header {
 .desktop-top-bar {
     position: relative;
     display: flex;
-    z-index: 1000;
+    z-index: 3000;
 
     &__menu {
         background: $red;
@@ -92,8 +92,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2000;
     background: rgba(255, 255, 255, 0.67);
-    margin-top: 40px;
+    margin-top: 60px;
 
     @include bp800 {
         margin-top: 50px;
@@ -103,11 +104,10 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 15px 0px;
+        padding: 20px 0px;
 
         @include bp800 {
             justify-content: left;
-            padding: 20px 0px;
         }
     }
 }
@@ -117,7 +117,7 @@ header {
 .logo {
     display: block;
     width: 100%;
-    max-width: 250px;
+    max-width: 320px;
     transition: .3s;
     margin: 0 auto;
     padding: 10px 5px;
@@ -128,6 +128,7 @@ header {
     }
 
     @include bp800 {
+        max-width: 250px;
         float: left;
         margin: 0 20px 0 0;
     }
