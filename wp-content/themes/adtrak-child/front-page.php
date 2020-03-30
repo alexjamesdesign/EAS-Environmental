@@ -13,6 +13,8 @@
 ?>
 
 	<main class="site-content">
+		<?php include locate_template('parts/content-block.php'); ?>
+
 		<div class="container">
 			<?php if (have_posts()): while (have_posts()): the_post(); ?>
 

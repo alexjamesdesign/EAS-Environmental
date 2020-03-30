@@ -1,0 +1,43 @@
+.contact-bar {
+    background: $blue;
+    color: $blanc;
+    // clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 40px 0px 0px 0px;
+
+    &__phone {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        padding: 0px 0px 0px 20px;
+    }
+
+    &__button {
+        width: 50%;
+
+        a {
+            width: 100%;
+        }
+    }
+
+    img {
+        margin: 0px 10px 0px 0px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .ld-phonenumber {
+        display: block;
+        @include font-primary ($weight:700 , $size:1.6rem);
+
+        a {
+            display: block;
+            clear: both;
+            color: $blanc;
+            text-decoration: none;
+            @include font-primary ($weight:700 , $size:1.8rem);
+        }
+    }
+}

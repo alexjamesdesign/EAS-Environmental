@@ -167,3 +167,22 @@
 	-webkit-align-self: $value;
 	align-self: $value;
 }
+
+/* Typography
+--------------------------------------------------------------- */
+
+@mixin font-extended($size: false, $colour: false, $weight: false,  $lh: false) {
+    font-family: 'pragmatica-extended', sans-serif;
+    @if $size { font-size: $size; }
+    @if $colour { color: $colour; }
+    @if $weight { font-weight: $weight; }
+    @if $lh { line-height: $lh; }
+}
+
+@mixin font-primary($size: false, $colour: false, $weight: false,  $lh: false) {
+    font-family: 'pragmatica', sans-serif;
+    @if $size { font-size: $size; }
+    @if $colour { color: $colour; }
+    @if $weight { font-weight: $weight; }
+    @if $lh { line-height: $lh; }
+}

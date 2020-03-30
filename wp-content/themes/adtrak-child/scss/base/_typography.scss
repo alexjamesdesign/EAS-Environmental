@@ -7,10 +7,20 @@ p.primary {
 	font-family: pragmatica-extended,sans-serif;
 	font-weight: 800;
 	font-style: italic;
+	color: $blanc;
+	line-height: 6.0rem;
 
 	@include bp800 {
 		font-size: 4.5rem;
 	}
+}
+
+p.title {
+	font-family: pragmatica,sans-serif;
+	font-weight: 700;
+	color: $red;
+	font-size: 3.3rem;
+	line-height: 3.9rem;
 }
 
 
@@ -45,10 +55,12 @@ h6 {
 }
 
 p {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
+	line-height: 2.7rem;
 	font-family: pragmatica-extended,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: $noir;
 }
 
 ul, ol {
