@@ -3,6 +3,16 @@
 --------------------------------------------------------------- */
 
 .content-block {
+    overflow: auto;
+    background: url("../images/dots.png") bottom right no-repeat;
+
+    &:before {
+        content:"";
+        display: block;
+        width: 500px;
+        height: 80%;
+        background: lighten($red,40%);
+    }
     
     &__body {
         @include bp1000 {
@@ -10,22 +20,25 @@
             flex-wrap: wrap;
             float: left;
             width: 70%;
+            padding: 0px 100px 0px 0px;
         }
 
         p {
-            padding: 0px 0px 20px 0px;
+            padding: 0px 0px 15px 0px;
         }
     }
 
     &__title-container {
         display: flex;
+        align-items: center;
         float: left;
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 25px 0px;
     }
 
     .title {
         float: left;
         width: 90%;
+        padding: 0;
     }
 
     &__icon {
@@ -46,11 +59,48 @@
     }
 
     &__secondary {
+        margin: 50px 0px 0px 0px;
+
         @include bp1000 {
             display: flex;
             flex-wrap: wrap;
             float: left;
             width: 30%;
+            margin: 0;
+        }
+    }
+
+    &__usps {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        @include bp800 {
+            margin: 85px 0px 0px 0px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 5px 0px;
+
+            @include bp800 {
+                padding: 20px 0px;
+            }
+
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 80px;
+                margin-right: 15px;
+                border: 2px solid #20354C;
+                padding: 5px;
+            }
+
+            span {
+                @include font-primary ($weight:700 , $size:1.8rem, $colour:$red);
+                text-transform: uppercase;
+            }
         }
     }
 }
