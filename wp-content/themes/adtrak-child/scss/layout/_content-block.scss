@@ -7,6 +7,20 @@
     background: url("../images/dots.png") bottom right no-repeat;
     position: relative;
 
+    .container {
+        
+        @include bp800 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &--reverse {
+            @include bp800 {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+
     &:after {
         content:"";
         display: block;
@@ -89,13 +103,13 @@
         flex-wrap: wrap;
 
         @include bp800 {
-            margin: 85px 0px 0px 0px;
+            margin: 40px 0px 40px 0px;
         }
 
         li {
             display: flex;
             align-items: center;
-            padding: 5px 0px;
+            padding: 10px 0px;
 
             @include bp800 {
                 padding: 20px 0px;

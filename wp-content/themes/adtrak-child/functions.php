@@ -114,6 +114,8 @@ add_action('after_setup_theme', function () {
 	add_image_size( 'img-600-600', 600, 600, true );
 	add_image_size( 'img-350-350', 350, 350, true );
 
+	add_image_size( 'img-490-550', 490, 550, true );
+
 	// More navs
 
 	register_nav_menus([

@@ -2,7 +2,9 @@
 
     <div class="content-block__background"></div>
 
-	<div class="container">
+    <?php $blockorder = get_field('blockorder'); ?>
+
+    <div class="container <?php if( $blockorder && in_array('right', $blockorder) ) { ?>container--reverse<?php } ?>">
 
         <div class="content-block__body">
 
