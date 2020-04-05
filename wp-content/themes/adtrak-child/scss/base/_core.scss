@@ -28,6 +28,12 @@ body {
 	margin: 0 auto;
 }
 
+.site-content {
+    .container {
+        padding: 20px;
+    }
+}
+
 /* For lazy loaded elements */
 .lazyload,
 .lazyloading {

@@ -1,5 +1,7 @@
 <div class="content-block">
 
+    <div class="content-block__background"></div>
+
 	<div class="container">
 
         <div class="content-block__body">

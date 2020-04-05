@@ -5,13 +5,26 @@
 .content-block {
     overflow: auto;
     background: url("../images/dots.png") bottom right no-repeat;
+    position: relative;
 
-    &:before {
+    &:after {
         content:"";
         display: block;
-        width: 500px;
-        height: 80%;
-        background: lighten($red,40%);
+        width: 100%;
+        background: lighten($red,35%);
+        top: 0%;
+        height: 40px;
+        transform: translateY(0);
+        height: 400px;
+        z-index: -200;
+        position: absolute;
+
+        @include bp800 {
+            width: 40%;
+            background: lighten($red,35%);
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
     
     &__body {
