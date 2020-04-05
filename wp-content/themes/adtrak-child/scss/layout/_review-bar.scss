@@ -1,0 +1,22 @@
+/*---------------------------------------------------------------
+    Review Bar
+--------------------------------------------------------------- */
+
+.review-bar {
+    background: $red;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding: 40px 0px;
+
+    p {
+        @include font-extended ($weight:700 , $size:3.3rem, $colour:$blanc, $style: italic);
+        text-transform: uppercase;
+    }
+
+    i {
+        margin: 20px 0px;
+        color: $blanc;
+        font-size: 3.2rem;
+    }
+}

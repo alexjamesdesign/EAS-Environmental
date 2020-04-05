@@ -14,6 +14,8 @@
 
 	<main class="site-content">
 		<?php include locate_template('parts/content-block.php'); ?>
+		<?php include locate_template('parts/review-bar.php'); ?>
+
 
 		<div class="container">
 			<?php if (have_posts()): while (have_posts()): the_post(); ?>

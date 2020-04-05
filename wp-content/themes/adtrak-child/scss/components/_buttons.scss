@@ -8,10 +8,10 @@ button, .btn {
     text-transform: uppercase;
     padding: 10px 20px;
     color: $noir;
-    text-decoration: none; 
-    border: 2px solid $noir;
+    text-decoration: none;
     transition: .3s;
-    clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+    border: 2px solid;
+    // clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
     text-align: center;
     
     &:hover {
@@ -23,7 +23,8 @@ button, .btn {
 
     // Define the 1) button name, 2) text/border color & 3) background color
     $btnColors :        noir $blanc $blue,
-                        blanc $blue $blanc;
+                        blanc $blue $blanc,
+                        bleu $blanc $blue;
 
     // Loop through colours above and create classes
     @each $colorOption in $btnColors {

@@ -171,12 +171,13 @@
 /* Typography
 --------------------------------------------------------------- */
 
-@mixin font-extended($size: false, $colour: false, $weight: false,  $lh: false) {
+@mixin font-extended($size: false, $colour: false, $weight: false,  $lh: false, $style: false) {
     font-family: 'pragmatica-extended', sans-serif;
     @if $size { font-size: $size; }
     @if $colour { color: $colour; }
     @if $weight { font-weight: $weight; }
-    @if $lh { line-height: $lh; }
+	@if $lh { line-height: $lh; }
+	@if $style { font-style: $style; }
 }
 
 @mixin font-primary($size: false, $colour: false, $weight: false,  $lh: false) {
