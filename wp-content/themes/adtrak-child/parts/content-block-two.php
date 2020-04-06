@@ -52,8 +52,8 @@
             <?php endif; } ?>
 
             <?php
-            $image = get_field('block_image_two');
-            if( $image ):
+            $blockimagetwo = get_field('block_image_two');
+            if( $blockimagetwo ):
 
                 // Image variables.
                 $url = $image['url'];
@@ -63,25 +63,14 @@
 
                 // Thumbnail size attributes.
                 $size = 'img-490-550';
-                $thumb = $image['sizes'][ $size ];
-                $width = $image['sizes'][ $size . '-width' ];
-                $height = $image['sizes'][ $size . '-height' ];
+                $thumb = $blockimagetwo['sizes'][ $size ];
+                $width = $blockimagetwo['sizes'][ $size . '-width' ];
+                $height = $blockimagetwo['sizes'][ $size . '-height' ];
 
-                // Begin caption wrap.
-                if( $caption ): ?>
-                    <div class="wp-caption">
-                <?php endif; ?>
+                ?>
 
-                <a href="<?php echo esc_url($url); ?>" title="<?php echo esc_attr($title); ?>">
-                    <img src="<?php echo esc_url($thumb); ?>" alt="<?php echo esc_attr($alt); ?>" />
-                </a>
+                <img src="<?php echo esc_url($thumb); ?>" alt="<?php echo esc_attr($alt); ?>" />
 
-                <?php 
-                // End caption wrap.
-                if( $caption ): ?>
-                    <p class="wp-caption-text"><?php echo esc_html($caption); ?></p>
-                    </div>
-                <?php endif; ?>
             <?php endif; ?>
 
         </div>
