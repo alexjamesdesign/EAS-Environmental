@@ -18,6 +18,24 @@
             @include bp800 {
                 flex-direction: row-reverse;
             }
+
+            .content-block {
+                &__body {
+                    @include bp1000 {
+                        padding: 0px 0px 0px 100px;
+                    }
+                }
+
+                &__secondary {
+                    img {
+                        padding: 0px 50px 0px 50px;
+
+                        @include bp1000 {
+                            padding: 0px 0px 0px 50px;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -97,7 +115,9 @@
         }
 
         img {
-            width: 100%;
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
         }
     }
 
