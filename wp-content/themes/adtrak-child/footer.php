@@ -8,46 +8,72 @@
 ?>
 
 	<footer>
-		<div class="container">
-			<div class="grid grid3_12">
-				<a href="<?php echo home_url(); ?>">
-					<?php $image = get_field('site_logo','option'); if( !empty($image) ): ?>
-						<img class="lazyload" data-src="<?php echo $image['url']; ?>" alt="<?php bloginfo('title'); ?> Logo" />
+		
+
+		<div class="footer-left">
+
+			<div class="container">
+
+				<div class="grid grid6_12">
+					<h6>Services</h6>
+					<?php
+					// Secondary Menu
+						if(has_nav_menu('primary')) {
+							wp_nav_menu([
+								'menu' => 'Primary Menu',
+								'menu_class' => "menu-primary",
+								'container' => ''
+							]);
+						}
+					?>
+					
+				</div>
+
+				<div class="grid grid6_12">
+					<h6>Navigate</h6>
+					<?php
+					// Secondary Menu
+					if(has_nav_menu('secondary')) {
+						wp_nav_menu([
+							'menu' => 'Secondary Menu',
+							'menu_class' => "menu-secondary",
+							'container' => ''
+						]);
+					}
+					?>
+				</div>
+
+				<div class="grid grid12_12 footer-bottom">
+
+					<p>Address: <?php address_inline(); ?></p>
+
+					<?php if(get_field('reg_number', 'option')): ?>
+						<p>Registered Number: <?php the_field('reg_number', 'option'); ?></p>
 					<?php endif; ?>
-				</a>
+					<?php if(get_field('vat_number', 'option')): ?>
+						<p>VAT Number: <?php the_field('vat_number', 'option'); ?></p>
+					<?php endif; ?>
+					<p><?php bloginfo('title'); ?> is a registered company in England.</p>
+					<p>&copy; <?php bloginfo('title'); ?> <?php echo date('Y'); ?>. All Rights Reserved</p>
+
+				</div>
+			
 			</div>
 
-			<div class="grid grid3_12">
-				<h6>Explore</h6>
-				<?php wp_nav_menu([
-					'menu' => 'Footer Menu', 
-					'menu_class' => 'nav nav--footer', 
-					'container' => '' 
-				]); ?>
-			</div>
-
-			<div class="grid grid6_12">
-		        <p>Address: <?php address_inline(); ?></p>
-		        <p>Email: <a href="mailto:<?php echo get_field('site_email', 'option'); ?>"><?php the_field('site_email', 'option'); ?></a></p>
-		        <p><?php bloginfo('title'); ?> is a registered company in England.</p>
-				<?php if(get_field('reg_number', 'option')): ?>
-					<p>Registered Number: <?php the_field('reg_number', 'option'); ?></p>
-				<?php endif; ?>
-				<?php if(get_field('vat_number', 'option')): ?>
-					<p>VAT Number: <?php the_field('vat_number', 'option'); ?></p>
-				<?php endif; ?>
-		        <p>&copy; <?php bloginfo('title'); ?> <?php echo date('Y'); ?>. All Rights Reserved</p>
-
-				<?php 
-				/** 
-				 * get_adtrak_logo accepts two arguments 
-				 * 'colour' (as white, black, orange/default) and 
-				 * 'icon' (as true or false) 
-				 * e.g. for the black icon use get_adtrak_logo('black', true)
-				*/ ?>
-		        <a class="adtrak" href="https://www.adtrak.co.uk"><?php echo get_adtrak_logo(); ?></a>
-		    </div>
 		</div>
+
+		<?php $footerImage = get_field( 'footer_image' , 'options' ); ?>
+
+		<div class="footer-right" style="background-image:url('<?php echo $footerImage['sizes']['large']; ?>');">
+
+			<a href="<?php echo home_url(); ?>">
+				<?php $image = get_field('site_logo_white','option'); if( !empty($image) ): ?>
+					<img class="lazyload" data-src="<?php echo $image['url']; ?>" alt="<?php bloginfo('title'); ?> Logo" />
+				<?php endif; ?>
+			</a>
+
+		</div>
+
 	</footer>
 
 	<!-- Back to top arrow -->

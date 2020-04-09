@@ -580,19 +580,69 @@ footer {
   clear: both;
   overflow: hidden;
   text-align: center;
-  padding: 20px; }
+  background: #20354C;
+  color: #fff; }
+  @media (min-width: 1000px) {
+    footer {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
   footer ul {
     list-style: none; }
   footer li {
-    display: block; }
+    display: block;
+    padding: 0px 0px 10px 0px; }
   footer img {
     max-width: 100%; }
-  @media (min-width: 800px) {
+  footer a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'pragmatica-extended', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none; }
+  footer h6 {
+    font-family: 'pragmatica', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px; }
+  footer p {
+    color: #fff; }
+  @media (min-width: 1000px) {
     footer {
       text-align: left; } }
+  footer .footer-bottom {
+    padding: 40px 0px 0px 0px; }
+    footer .footer-bottom p {
+      font-size: 1.1rem;
+      padding: 0px 15px 0px 0px; }
+      @media (min-width: 1000px) {
+        footer .footer-bottom p {
+          display: inline-block; } }
 
-.adtrak img {
-  max-width: 100px; }
+.footer-left {
+  padding: 20px;
+  overflow: auto; }
+  @media (min-width: 1000px) {
+    .footer-left {
+      width: 70%; } }
+
+.footer-right {
+  position: relative; }
+  @media (min-width: 1000px) {
+    .footer-right {
+      width: 30%; } }
+  .footer-right a {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px; }
+    @media (min-width: 1000px) {
+      .footer-right a {
+        width: 80%;
+        position: absolute;
+        bottom: 20px;
+        right: 20px; } }
 
 /* Back to top
 --------------------------------------------------------------- */

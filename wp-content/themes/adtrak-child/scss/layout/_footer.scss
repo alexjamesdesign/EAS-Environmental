@@ -6,7 +6,12 @@ footer {
     clear: both;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
+    background: $blue;
+    color: $blanc;
+    
+    @include bp1000 {
+        display: flex;
+    }
 
     ul {
         list-style: none;
@@ -14,20 +19,83 @@ footer {
 
     li {
         display: block;
+        padding: 0px 0px 10px 0px;
     }
 
     img {
         max-width: 100%;
     }
 
-    @include bp800 {
+    a {
+        color: $blanc;
+        text-transform: uppercase;
+        @include font-extended ($size:1.3rem);
+        text-decoration: none;
+    }
+
+    h6 {
+        @include font-primary ($weight:700 , $size:2.8rem);
+        padding: 0px 0px 20px 0px;
+    }
+
+    p {
+        color: $blanc;
+    }
+
+    @include bp1000 {
         text-align: left;
+    }
+
+    .footer-bottom {
+        padding: 40px 0px 0px 0px;
+
+        p {
+            font-size: 1.1rem;
+            padding: 0px 15px 0px 0px;
+
+            @include bp1000 {
+                display: inline-block;
+            }
+        }
     }
 }
 
-.adtrak img {
-    max-width: 100px;
+.footer-background {
+    
 }
+
+.footer-left {
+    padding: 20px;
+    overflow: auto;
+
+    @include bp1000 {
+        width: 70%;
+    }
+}
+
+.footer-right {
+    position: relative;
+
+    @include bp1000 {
+        width: 30%;
+    }
+
+    a {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0px;
+
+        @include bp1000 {
+            width: 80%;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+}
+
 
 /* Back to top
 --------------------------------------------------------------- */
