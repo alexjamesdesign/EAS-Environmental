@@ -3,9 +3,39 @@
 --------------------------------------------------------------- */
 
 .content-block {
-    overflow: auto;
     background: url("../images/dots.png") bottom right no-repeat;
     position: relative;
+    padding: 50px 0px;
+
+    &:after {
+        content:"";
+        display: block;
+        width: 100%;
+        background: lighten($red,35%);
+        top: 0%;
+        transform: translateY(0);
+        height: 400px;
+        z-index: -200;
+        position: absolute;
+
+        @include bp800 {
+            width: 40%;
+            background: lighten($red,35%);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &--three {
+        background: url("../images/dots.png") bottom left no-repeat;
+
+        &:after { 
+            right: 0;
+            bottom: 0;
+            height: 200px;
+            transform: initial;
+        }
+    }
 
     .container {
         
@@ -31,31 +61,11 @@
                         padding: 0px 50px 0px 50px;
 
                         @include bp1000 {
-                            padding: 0px 0px 0px 50px;
+                            padding: 0px 0px 0px 0px;
                         }
                     }
                 }
             }
-        }
-    }
-
-    &:after {
-        content:"";
-        display: block;
-        width: 100%;
-        background: lighten($red,35%);
-        top: 0%;
-        height: 40px;
-        transform: translateY(0);
-        height: 400px;
-        z-index: -200;
-        position: absolute;
-
-        @include bp800 {
-            width: 40%;
-            background: lighten($red,35%);
-            top: 50%;
-            transform: translateY(-50%);
         }
     }
     
@@ -66,6 +76,16 @@
             float: left;
             width: 70%;
             padding: 0px 100px 0px 0px;
+        }
+
+        &--full {
+            @include bp1000 {
+                display: flex;
+                flex-wrap: wrap;
+                float: left;
+                width: 100%;
+                padding: 0px 100px 0px 0px;
+            }
         }
 
         p {
@@ -118,6 +138,14 @@
             max-width: 100%;
             height: auto;
             object-fit: contain;
+        }
+
+        iframe {
+            height: 300px;
+
+            @include bp1000 {
+                height: 100%;
+            }
         }
     }
 

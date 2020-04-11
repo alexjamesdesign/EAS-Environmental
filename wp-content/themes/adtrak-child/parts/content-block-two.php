@@ -56,10 +56,10 @@
             if( $blockimagetwo ):
 
                 // Image variables.
-                $url = $image['url'];
-                $title = $image['title'];
-                $alt = $image['alt'];
-                $caption = $image['caption'];
+                $url = $blockimagetwo['url'];
+                $title = $blockimagetwo['title'];
+                $alt = $blockimagetwo['alt'];
+                $caption = $blockimagetwo['caption'];
 
                 // Thumbnail size attributes.
                 $size = 'img-490-550';
