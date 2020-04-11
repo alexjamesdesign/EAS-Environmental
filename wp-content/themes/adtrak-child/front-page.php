@@ -18,7 +18,7 @@
 		<?php include locate_template('parts/content-block-two.php'); ?>
 		<?php include locate_template('parts/content-block-three.php'); ?>
 
-		<div class="container">
+		<!-- <div class="container">
 			<?php if (have_posts()): while (have_posts()): the_post(); ?>
 
 				<article class="copy">
@@ -31,7 +31,7 @@
 				</aside>
 
 			<?php endwhile; endif; ?>
-		</div>
+		</div> -->
 	</main>
 
 <?php get_footer(); ?>

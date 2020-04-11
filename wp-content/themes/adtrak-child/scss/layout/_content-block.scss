@@ -18,7 +18,7 @@
         z-index: -200;
         position: absolute;
 
-        @include bp800 {
+        @include bp1000 {
             width: 40%;
             background: lighten($red,35%);
             top: 50%;
@@ -39,19 +39,23 @@
 
     .container {
         
-        @include bp800 {
+        @include bp1000 {
             display: flex;
             flex-direction: row;
         }
 
         &--reverse {
-            @include bp800 {
+            @include bp1000 {
                 flex-direction: row-reverse;
             }
 
             .content-block {
                 &__body {
                     @include bp1000 {
+                        padding: 0px 0px 0px 50px;
+                    }
+
+                    @include bp1200 {
                         padding: 0px 0px 0px 100px;
                     }
                 }
@@ -70,11 +74,17 @@
     }
     
     &__body {
+        display: flex;
+        flex-wrap: wrap;
+        
+
         @include bp1000 {
-            display: flex;
-            flex-wrap: wrap;
             float: left;
             width: 70%;
+            padding: 0px 50px 0px 0px;
+        }
+
+        @include bp1200 {
             padding: 0px 100px 0px 0px;
         }
 
@@ -96,27 +106,44 @@
     &__title-container {
         display: flex;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
         float: left;
         padding: 0px 0px 25px 0px;
+        width: 100%;
+
+        @include bp800 {
+            flex-wrap: nowrap;
+            justify-content: left;
+        }
     }
 
     .title {
         float: left;
         width: 90%;
         padding: 0;
+        text-align: center;
+
+        @include bp800 {
+            text-align: left;
+        }
     }
 
     &__icon {
         width: 80px;
         height: 80px;
         border-radius: 80px;
-        margin-right: 15px;
         display: flex;
         flex-basis: auto;
         justify-content: center;
         align-items: center;
         border: 2px solid #20354C;
         float: left;
+        margin: 0px 0px 10px 0px;
+
+        @include bp800 {
+            margin: 0px 15px 0px 0px;
+        }
 
         img {
             height: 55px;
@@ -125,6 +152,8 @@
 
     &__secondary {
         margin: 50px 0px 0px 0px;
+        width: 100%;
+        text-align: center;
 
         @include bp1000 {
             display: flex;
@@ -132,6 +161,7 @@
             float: left;
             width: 30%;
             margin: 0;
+            text-align: left;
         }
 
         img {
@@ -154,7 +184,7 @@
         display: flex;
         flex-wrap: wrap;
 
-        @include bp800 {
+        @include bp1000 {
             margin: 40px 0px 40px 0px;
         }
 
@@ -162,8 +192,15 @@
             display: flex;
             align-items: center;
             padding: 10px 0px;
+            width: 100%;
 
             @include bp800 {
+                width: 50%;
+                float: left
+            }
+
+            @include bp1000 {
+                width: 100%;
                 padding: 20px 0px;
             }
 

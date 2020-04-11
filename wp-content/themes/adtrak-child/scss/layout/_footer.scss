@@ -8,6 +8,7 @@ footer {
     text-align: center;
     background: $blue;
     color: $blanc;
+    margin: 70px 0px 0px 0px;
     
     @include bp1000 {
         display: flex;
