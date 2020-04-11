@@ -1,138 +1,76 @@
-<?php 
+<div class="hero">
 
-if ( is_front_page() ) { 
+<?php
 
-/* -----------------------------------------------------------------
-Home page
------------------------------------------------------------------ */
+/* This uses the featured image as a background. Takes the featured image, and applies the different sizes to varying breakpoints. */
 
-?>
+$thumb_id = get_post_thumbnail_id();
 
-	<div class="hero">
+$thumb_url_array_small = wp_get_attachment_image_src($thumb_id, 'img-600-600', true);
+$thumb_url_small = $thumb_url_array_small[0];
 
-	<?php
+$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'img-1200-500', true);
+$thumb_url = $thumb_url_array[0];
 
-	/* This uses the featured image as a background. Takes the featured image, and applies the different sizes to varying breakpoints. */
+$thumb_url_array_large = wp_get_attachment_image_src($thumb_id, 'img-2000-650', true);
+$thumb_url_large = $thumb_url_array_large[0];
 
-	$thumb_id = get_post_thumbnail_id();
+if ( $thumb_id ) : ?>
 
-	$thumb_url_array_small = wp_get_attachment_image_src($thumb_id, 'img-600-600', true);
-	$thumb_url_small = $thumb_url_array_small[0];
+    <style>
+        .hero {
+            background-image: url(<?php echo $thumb_url_small; ?>);
+        }
+        @media (min-width: 600px) {
+            .hero {
+                background-image: url(<?php echo $thumb_url; ?>);
+            }
+        }
+        @media (min-width: 1200px) {
+            .hero {
+                background-image: url(<?php echo $thumb_url_large; ?>);
+            }
+        }
+    </style>
 
-	$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'img-1200-500', true);
-	$thumb_url = $thumb_url_array[0];
+<?php endif; ?>
 
-	$thumb_url_array_large = wp_get_attachment_image_src($thumb_id, 'img-2000-650', true);
-	$thumb_url_large = $thumb_url_array_large[0];
+    <div class="hero__container container">
 
-	if ( $thumb_id ) : ?>
+        <div class="hero__content">
 
-		<style>
-			.hero {
-		      background-image: url(<?php echo $thumb_url_small; ?>);
-		    }
-		    @media (min-width: 600px) {
-				.hero {
-			       background-image: url(<?php echo $thumb_url; ?>);
-			    }
-		    }
-		    @media (min-width: 1200px) {
-				.hero {
-			      background-image: url(<?php echo $thumb_url_large; ?>);
-			    }
-		    }
-		</style>
+        <?php
 
-	<?php endif; ?>
+            // check if the flexible hero has rows of data
+            if( have_rows('flexible_hero') ):
 
-		<div class="hero__container container">
+                    // loop through the rows of data
+                while ( have_rows('flexible_hero') ) : the_row();
 
-			<div class="hero__content">
+                    if( get_row_layout() == 'text' ): ?>
 
-			<?php
+                        <p class="<?php the_sub_field('hero_text_class'); ?>"><?php the_sub_field('hero_text'); ?></p>
 
-				// check if the flexible hero has rows of data
-				if( have_rows('flexible_hero') ):
+                    <?php
 
-				     // loop through the rows of data
-				    while ( have_rows('flexible_hero') ) : the_row();
+                    elseif( get_row_layout() == 'button' ): ?>
 
-				        if( get_row_layout() == 'text' ): ?>
+                        <a class="<?php the_sub_field('button_class'); ?>" href="<?php the_sub_field('button_link') ?>">
+                            <?php the_sub_field('button_text') ?>
+                        </a>
 
-				        	<p class="<?php the_sub_field('hero_text_class'); ?>"><?php the_sub_field('hero_text'); ?></p>
+                    <?php endif;
 
-				        <?php
+                endwhile; ?>
 
-				        elseif( get_row_layout() == 'button' ): ?>
+            <?php /* Else display the title */ else : ?>
 
-							<a class="<?php the_sub_field('button_class'); ?>" href="<?php the_sub_field('button_link') ?>">
-								<?php the_sub_field('button_text') ?>
-							</a>
+            <p class="primary"><?php the_title(); ?></p>
 
-				    	<?php endif;
+        <?php endif; ?>
 
-				    endwhile; ?>
+        </div>	
 
-				<?php /* Else display the title */ else : ?>
+    </div>
 
-				<p class="primary"><?php the_title(); ?></p>
-
-			<?php endif; ?>
-
-			</div>	
-
-		</div>
-
-	</div>
-
-<?php } elseif (is_page('contact') || is_page('contact-us')) {
-
-/* -----------------------------------------------------------------
-Contact page
------------------------------------------------------------------ */
-
-?>
-
-
-
-<?php } elseif (is_page()) {
-
-/* -----------------------------------------------------------------
-Internal page
------------------------------------------------------------------ */
-
-?>
-
-
-
-<?php } elseif (is_singular('post')) { 
-
-/* -----------------------------------------------------------------
-Single post
------------------------------------------------------------------ */
-
-?>
-
-
-
-<?php } elseif (is_search()) {
-
-/* -----------------------------------------------------------------
-Search results
------------------------------------------------------------------ */
-
-?>
-
-
-
-<?php } else {
-
-/* -----------------------------------------------------------------
-Everything else
------------------------------------------------------------------ */
-
-?>
-
-	
-
-<?php } ?>
+</div>

@@ -31,12 +31,24 @@
 
             if( $blocktype && in_array('usps', $blocktype) ) {
             
-            if( have_rows('usps') ) : ?>
+            if( have_rows('usps') ) :
+            
+                $uspType = "usps";
+                $uspLocation = "";
+
+            else : 
+
+                $uspType = "global_usps";
+                $uspLocation = "options";
+            
+            endif; } 
+
+            if( $blocktype && in_array('usps', $blocktype) ) {
+
+            while ( have_rows($uspType, $uspLocation) ) : the_row(); ?>
 
             <ul class="content-block__usps">
             
-                <?php while ( have_rows('usps') ) : the_row(); ?>
-
                 <li>
                     <?php $icon = get_sub_field('icon'); if( !empty( $icon ) ): ?>
                         <img src="<?php echo esc_url($icon['url']); ?>" alt="<?php echo esc_attr($icon['alt']); ?>" />
@@ -45,10 +57,30 @@
                     <span><?php the_sub_field('usp'); ?></span>
                 </li>
 
-                <?php endwhile; ?>
-
             </ul>
-            
+
+            <?php endwhile; }
+
+            if( $blocktype && in_array('image', $blocktype) ) {
+            $blockimage = get_field('block_image');
+            if( $blockimage ):
+
+                // Image variables.
+                $url = $blockimage['url'];
+                $title = $blockimage['title'];
+                $alt = $blockimage['alt'];
+                $caption = $blockimage['caption'];
+
+                // Thumbnail size attributes.
+                $size = 'img-490-550';
+                $thumb = $blockimage['sizes'][ $size ];
+                $width = $blockimage['sizes'][ $size . '-width' ];
+                $height = $blockimage['sizes'][ $size . '-height' ];
+
+                ?>
+
+                <img src="<?php echo esc_url($thumb); ?>" alt="<?php echo esc_attr($alt); ?>" />
+
             <?php endif; } ?>
 
         </div>
