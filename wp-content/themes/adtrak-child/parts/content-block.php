@@ -43,11 +43,13 @@
             
             endif; } 
 
-            if( $blocktype && in_array('usps', $blocktype) ) {
-
-            while ( have_rows($uspType, $uspLocation) ) : the_row(); ?>
+            if( $blocktype && in_array('usps', $blocktype) ) { ?>
 
             <ul class="content-block__usps">
+
+            <?php while ( have_rows($uspType, $uspLocation) ) : the_row(); ?>
+
+            
             
                 <li>
                     <?php $icon = get_sub_field('icon'); if( !empty( $icon ) ): ?>
@@ -57,9 +59,11 @@
                     <span><?php the_sub_field('usp'); ?></span>
                 </li>
 
+            <?php endwhile; ?>
+
             </ul>
 
-            <?php endwhile; }
+            <?php }
 
             if( $blocktype && in_array('image', $blocktype) ) {
             $blockimage = get_field('block_image');
