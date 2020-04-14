@@ -1,0 +1,43 @@
+/*---------------------------------------------------------------
+    Contact Form
+--------------------------------------------------------------- */
+
+.nf-form-wrap {
+    background: lighten($red,35%);
+
+    @include bp1000 {
+        padding: 25px 20px;
+    }
+}
+
+.nf-field-label {
+    display: none;
+}
+
+.ninja-forms-field {
+    border: none;
+    padding: 10px;
+    @include font-primary ($weight:400 , $size:1.6rem, $colour:$blue);
+}
+
+.nf-error .ninja-forms-field {
+    border: 3px solid lighten($red,45%);
+}
+
+/*---------------------------------------------------------------
+    Opening hours
+--------------------------------------------------------------- */
+
+.opening-hours {
+    list-style: none;
+
+    li {
+        @include font-extended ($weight:700 , $size:1.6rem, $colour:$noir);
+        padding: 0px 0px 10px 0px;
+
+        span {
+            padding: 0px 0px 0px 5px;
+            font-weight: 400;
+        }
+    }
+}

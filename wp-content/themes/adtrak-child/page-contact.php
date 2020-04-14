@@ -20,6 +20,7 @@
             <article class="copy">
                 <h1><?php the_field('h1'); ?></h1>
                 <?php the_content(); ?>
+                <?php echo do_shortcode( '[ninja_form id=1]' ); ?>
             </article>
 
             <aside class="sidebar">
