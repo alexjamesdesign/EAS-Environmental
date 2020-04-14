@@ -10,11 +10,11 @@
     &__container {
         position: relative;   
         min-height: 540px;  
-        padding: 147px 0px 0px 0px;
+        padding: 110px 0px 0px 0px;
 
-        @include bp800 {
-            min-height: 630px;  
-            padding: 180px 0px 0px 0px;
+        @include bp1000 {
+            min-height: 660px;  
+            padding: 204px 0px 0px 0px;
         }
     }
 
@@ -26,12 +26,16 @@
         color: $blanc;
         text-transform: uppercase;
         max-width: 970px;
-        top: 62%;
+        top: 57%;
         left: 50%;
         transform: translate(-50%,-50%);
 
         @include bp800 {
             padding: 0px 50px;
+        }
+
+        @include bp1000 {
+            top: 63%;
         }
     }
 

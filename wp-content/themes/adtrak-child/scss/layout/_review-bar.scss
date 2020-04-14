@@ -10,8 +10,12 @@
     padding: 40px 0px;
 
     p {
-        @include font-extended ($weight:700 , $size:3.3rem, $colour:$blanc, $style: italic);
+        @include font-extended ($weight:700 , $size:2.9rem, $colour:$blanc, $style: italic);
         text-transform: uppercase;
+
+        @include bp800 {
+            @include font-extended ($weight:700 , $size:3.3rem, $colour:$blanc, $style: italic);
+        }
     }
 
     i {

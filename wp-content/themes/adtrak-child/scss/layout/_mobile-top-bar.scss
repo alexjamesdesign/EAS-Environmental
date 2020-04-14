@@ -14,7 +14,7 @@
     @include flexbox();
     @include clearfix;
 
-    @include bp800 {
+    @include bp1000 {
         display: none;
     } 
 }

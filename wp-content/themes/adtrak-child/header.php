@@ -95,16 +95,14 @@
 					</a>
 
 					<nav id="navigation" class="desktop-nav">
-						<div>
-							<?php
-							// Primary menu for desktop
-								wp_nav_menu([
-									'menu' => 'Primary Menu',
-									'menu_class' => "menu-primary",
-									'container' => ''
-								]);
-							?>
-						</div>
+						<?php
+						// Primary menu for desktop
+							wp_nav_menu([
+								'menu' => 'Primary Menu',
+								'menu_class' => "menu-primary",
+								'container' => ''
+							]);
+						?>
 					</nav>
 
 				</div>

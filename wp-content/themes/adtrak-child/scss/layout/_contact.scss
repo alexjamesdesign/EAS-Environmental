@@ -4,6 +4,9 @@
 
 .nf-form-wrap {
     background: lighten($red,35%);
+    padding: 25px 5px;
+    @include font-primary ($weight:700 , $size:1.8rem);
+    margin: 25px 0px 0px 0px;
 
     @include bp1000 {
         padding: 25px 20px;
@@ -20,8 +23,30 @@
     @include font-primary ($weight:400 , $size:1.6rem, $colour:$blue);
 }
 
+.nf-error-required-error {
+    font-size: 1.5rem;
+}
+
 .nf-error .ninja-forms-field {
     border: 3px solid lighten($red,45%);
+}
+
+.nf-form-fields-required {
+    padding: 0px 0px 15px 0px;
+    font-size: 1.5rem;
+}
+
+input[type=button] {
+    color: $blanc;
+    background: $blue;
+    text-transform: uppercase;
+    @include font-extended ($weight:700 , $size:1.4rem, $colour:$blanc);
+    border: 3px solid $blanc;
+    transition: .3s;
+
+    &:hover {
+        background: lighten($blue,10%);
+    }
 }
 
 /*---------------------------------------------------------------

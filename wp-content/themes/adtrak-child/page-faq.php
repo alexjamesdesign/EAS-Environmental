@@ -37,6 +37,8 @@
 
         <?php endif; ?>
 
+        <?php include locate_template('parts/content-block-three.php'); ?>
+
     </div>
 </main>
 

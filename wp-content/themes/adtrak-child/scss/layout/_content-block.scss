@@ -99,7 +99,7 @@
         }
 
         p {
-            padding: 0px 0px 15px 0px;
+            padding: 0px 0px 20px 0px;
         }
     }
 
@@ -196,7 +196,7 @@
 
             @include bp800 {
                 width: 50%;
-                float: left
+                float: left;
             }
 
             @include bp1000 {
@@ -214,8 +214,13 @@
             }
 
             span {
-                @include font-primary ($weight:700 , $size:1.8rem, $colour:$red);
+                @include font-primary ($weight:700 , $size:1.6rem, $colour:$red);
                 text-transform: uppercase;
+                text-align: left;
+
+                @include bp800 {
+                    @include font-primary ($weight:700 , $size:1.8rem, $colour:$red);
+                }
             }
         }
     }

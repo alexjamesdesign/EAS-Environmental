@@ -3,15 +3,16 @@
 --------------------------------------------------------------- */
 
 p.primary {
-	font-size: 3.1rem;
+	font-size: 2.9rem;
 	font-family: pragmatica-extended,sans-serif;
 	font-weight: 800;
 	font-style: italic;
 	color: $blanc;
-	line-height: 6.0rem;
+	line-height: 4.7rem;
 
 	@include bp800 {
 		font-size: 4.5rem;
+		line-height: 6rem;
 	}
 }
 
@@ -19,8 +20,13 @@ p.title {
 	font-family: pragmatica-extended,sans-serif;
 	font-weight: 700;
 	color: $red;
-	font-size: 3.3rem;
-	line-height: 3.9rem;
+	font-size: 2.9rem;
+	line-height: 4.0rem;
+
+	@include bp800 {
+		font-size: 3.3rem;
+		line-height: 3.9rem;
+	}
 }
 
 
