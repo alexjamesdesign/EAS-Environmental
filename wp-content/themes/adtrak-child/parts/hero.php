@@ -9,10 +9,10 @@ $thumb_id = get_post_thumbnail_id();
 $thumb_url_array_small = wp_get_attachment_image_src($thumb_id, 'img-600-600', true);
 $thumb_url_small = $thumb_url_array_small[0];
 
-$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'img-1200-500', true);
+$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'img-1200-650', true);
 $thumb_url = $thumb_url_array[0];
 
-$thumb_url_array_large = wp_get_attachment_image_src($thumb_id, 'img-2000-650', true);
+$thumb_url_array_large = wp_get_attachment_image_src($thumb_id, 'img-2100-1000', true);
 $thumb_url_large = $thumb_url_array_large[0];
 
 if ( $thumb_id ) : ?>
