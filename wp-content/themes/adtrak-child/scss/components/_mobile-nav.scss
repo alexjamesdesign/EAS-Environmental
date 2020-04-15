@@ -3,23 +3,23 @@
 // --------------------------------------------------------------------------------------------------
 
 /* Important to set */
-$menuTitleHeight :    52px;
+$menuTitleHeight :    70px;
 
 /* Colours */
-$menuTitleColor :     rgba(#000,.35);
+$menuTitleColor :     $blanc;
 
-$panelBg :            #eee;
+$panelBg :            $blue;
 
 $linkBg :             transparent;
-$linkText :           rgba(#000,.65);
-$linkBorder :         rgba(#000,.15);
+$linkText :           $blanc;
+$linkBorder :         rgba($blue,.15);
 $linkBgActive :       transparent;
-$linkTextActive :     red;
+$linkTextActive :     lighten($blue,50%);
 
 $dropdownArrowBg :    transparent;
 $dropdownArrowText :  inherit;
 
-$closeIconBg :        red;
+$closeIconBg :        $red;
 $closeIconText :      #fff;
 
 .mob-nav {
@@ -41,10 +41,11 @@ $closeIconText :      #fff;
         content: "Menu";
         display: block;
         width: 100%;
-        padding: 15px;
+        padding: 19px 15px;
         color: $menuTitleColor;
+        background: $red;
         text-align: center;
-        font-size: 1.5rem;
+        @include font-extended ($weight:700 , $size:1.5rem, $colour:$linkText);
     }
 
     &--active {
@@ -67,9 +68,9 @@ $closeIconText :      #fff;
         float: left;
         width: 100%;
         border-bottom: 1px solid $linkBorder;
-        font-size: 1.3rem;
         position: relative;
         background-color: $linkBg;
+        @include font-primary ($weight:700 , $size:1.3rem, $colour:$linkText);
 
         @media screen and (min-width: 375px) {
             font-size: 1.4rem;
