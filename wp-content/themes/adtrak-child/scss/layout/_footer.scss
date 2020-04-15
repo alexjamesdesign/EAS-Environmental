@@ -16,6 +16,10 @@ footer {
 
     ul {
         list-style: none;
+
+        &.sub-menu {
+            display: none;
+        }
     }
 
     li {
