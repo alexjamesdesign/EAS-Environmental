@@ -23,4 +23,37 @@
         color: $blanc;
         font-size: 3.2rem;
     }
+
+    .animate {
+        opacity: 0;
+
+        &.inview {
+            animation-delay: 0.8s;
+            animation: fadeInStars ease-in 1;
+            animation-fill-mode: forwards;
+            animation-duration: 1s;
+
+            &.star-one {
+                animation-delay: 0.2s;
+            }
+        
+            &.star-two {
+                animation-delay: 0.4s;
+            }
+        
+            &.star-three {
+                animation-delay: 0.6s;
+            }
+        
+            &.star-four {
+                animation-delay: 0.8s;
+            }
+        
+            &.star-five {
+                animation-delay: 1.0s;
+            }
+        }
+    }
 }
+
+@keyframes fadeInStars { from { opacity:0; } to { opacity:1; } }
