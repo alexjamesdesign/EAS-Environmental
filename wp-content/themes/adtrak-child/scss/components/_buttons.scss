@@ -15,9 +15,8 @@ button, .btn {
     text-align: center;
     
     &:hover {
-        background: $noir;
-        color: $blanc;
-        border-color: $blanc;
+        background: lighten($blue, 70%);
+        color: $blue;
         text-decoration: none;
     }
 

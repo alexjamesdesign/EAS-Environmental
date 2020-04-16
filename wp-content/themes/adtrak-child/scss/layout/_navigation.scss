@@ -81,6 +81,7 @@
             transition: .3s;
             padding: 0px;
             background: $blue;
+            display: block;
 
             @include bp1200 {
                 width: 550px;

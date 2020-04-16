@@ -19,8 +19,6 @@
             
             <?php the_field('content_two'); ?>
 
-            <?php include locate_template('parts/contact-bar.php'); ?>
-
         </div>
 
         <div class="content-block__secondary">
