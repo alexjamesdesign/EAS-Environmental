@@ -41,6 +41,10 @@
 						]);
 					}
 					?>
+
+					<ul>
+						<li><a href="http://localhost:8888/EAS-Environmental/privacy-policy/">Privacy Policy</a></li>
+					</ul>
 				</div>
 
 				<div class="grid grid12_12 footer-bottom">
