@@ -1,4 +1,4 @@
-<div class="content-block">
+<div class="content-block animate">
 
     <div class="content-block__background"></div>
 
