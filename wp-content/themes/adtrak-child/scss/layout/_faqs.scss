@@ -9,6 +9,8 @@
     max-width: 900px;
     float: left;
     position: relative;
+    flex-shrink: 0;
+    width: 100%;
 
     @include bp1000 {
         display: flex;
@@ -46,11 +48,15 @@
     }
 
     &__question {
-        @include font-extended ($size:3.3rem, $weight:700, $lh: 4.1rem);
+        @include font-extended ($size:2.9rem, $weight:700, $lh: 3.3rem);
         color: $red;
-        padding: 5px 5px 15px 5px;
+        padding: 5px 25px 15px 5px;
         float: left;
         position: relative;
+
+        @include bp800 {
+            @include font-extended ($size:3.3rem, $weight:700, $lh: 4.1rem);
+        }
         
         &:after {
             content:"";
@@ -68,9 +74,25 @@
                 display: none;  
             }
         }
+
+        i {
+            position: absolute;
+            top: 10px;
+            right: 0;
+            transition: .3s;
+            
+            @include bp1000 {
+                display: none;
+            }
+        }
     }
 
     &__answer {
         @include font-extended ($weight:400 , $size:1.6rem);
+        display: none;
+
+        @include bp1000 {
+            display: block;
+        }
     }
 }

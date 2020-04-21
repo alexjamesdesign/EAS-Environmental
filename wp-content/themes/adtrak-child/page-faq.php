@@ -26,7 +26,7 @@
 
                 <div class="faq">
                     <div class="faq-inner">
-                        <p class="faq__question"><?php the_sub_field('question'); ?></p>
+                        <p class="faq__question"><?php the_sub_field('question'); ?><i class="fa fa-caret-right" aria-hidden="true"></i></p>
                         <p class="faq__answer"><?php  the_sub_field('answer'); ?></p>
                     </div>
                 </div>

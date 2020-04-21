@@ -36,6 +36,32 @@
 			
 		});
 
+		// --------------------------------------------------------------------------------------------------
+		// FAQs Accordion
+		// --------------------------------------------------------------------------------------------------
+
+		if ($(window).width() < 1000) {
+
+			$('.faq__question').click(function(e) {
+				e.preventDefault();
+
+				var open = $(this).parent().find('.faq__answer');
+				var rotated = $(this).parent().find('.fa-caret-right');
+
+				$('.faq__answer').not(open).slideUp();
+				$(this).parent().find('.faq__answer').slideToggle({duration: 400, start: function() {
+
+					if($(this).parent().find('i.fa-caret-right').hasClass('fa-rotate-90')) {
+						$(this).parent().find('i.fa-caret-right').removeClass('fa-rotate-90');
+					} else {
+						$(this).parent().find('i.fa-caret-right').addClass('fa-rotate-90');
+					}
+					$('.fa-caret-right').not(rotated).removeClass('fa-rotate-90');
+				}});
+			});
+
+		}
+
 
 		// --------------------------------------------------------------------------------------------------
 		// Back to top
