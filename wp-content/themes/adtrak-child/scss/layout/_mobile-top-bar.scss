@@ -18,6 +18,19 @@
     @include bp1000 {
         display: none;
     } 
+
+    img {
+        position: absolute;
+        left: 15px;
+        top: 12px;
+        width: 35px;
+        height: 35px;
+        margin-right: 8px;
+
+        @include bp1000 {
+            display: none;
+        }
+    }
 }
 
 .mobile-top-btn, {
@@ -45,20 +58,6 @@
         justify-content: center;
         align-items: center;
 
-        // &:before {
-        //     display: inline-block;
-        //     margin-right: 10px;
-        //     content: '\f095';
-        //     font-family: "FontAwesome";
-        //     background-image: "../images/icon-phone.svg";
-        // }
-
-        img {
-            width: 35px;
-            height: 35px;
-            margin-right: 8px;
-        }
-
         a {
             color: $blanc;
             text-decoration: none;  
@@ -72,10 +71,11 @@
 // Used to trigger multiple numbers in the mobile top bar
 .js-toggle-location-numbers {
     display: block;
-    padding: 5px;
+    padding: 5px 5px 5px 25px;
     width: 65%;
     float: left;
     text-align: center;
+    cursor: pointer;
 
     color: $blanc;
     font-family: pragmatica,sans-serif;
