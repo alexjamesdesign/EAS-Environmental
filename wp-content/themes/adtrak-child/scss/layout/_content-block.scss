@@ -121,6 +121,14 @@
                     width: initial;
                 }
 
+                span {
+                    background: $blue;
+                    @include font-primary ($weight:700 , $size:1.4rem, $colour:$blanc);
+                    padding: 10px 30px 10px 15px;
+                    height: 100%;
+                    display: block;
+                }
+
                 a {
                     text-decoration: none;
                     @include font-primary ($weight:700 , $size:1.4rem, $colour:$blanc);
