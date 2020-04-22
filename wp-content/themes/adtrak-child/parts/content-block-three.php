@@ -11,7 +11,7 @@
             <div class="content-block__title-container">
                 <?php if( get_field('title_icon_three') ): ?>
                 <div class="content-block__icon">
-                    <img src="<?php the_field('title_icon_three'); ?>" alt="icon" />
+                    <img src="<?php the_field('title_icon_three'); ?>" alt="icon" class="lazyload" />
                 </div>
                 <?php endif; ?>
                 <p class="title"><?php the_field('title_three'); ?></p>
