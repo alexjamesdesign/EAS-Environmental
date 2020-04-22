@@ -34,4 +34,6 @@
 		</div> -->
 	</main>
 
+	<?php include locate_template('parts/page-gallery.php'); ?>
+
 <?php get_footer(); ?>
