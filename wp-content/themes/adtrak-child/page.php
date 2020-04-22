@@ -17,6 +17,7 @@
 	<?php include locate_template('parts/review-bar.php'); ?>
 	<?php include locate_template('parts/content-block-two.php'); ?>
 	<?php include locate_template('parts/content-block-three.php'); ?>
+	<?php include locate_template('parts/page-gallery.php'); ?>
 </main>
 
 <?php get_footer(); ?>
