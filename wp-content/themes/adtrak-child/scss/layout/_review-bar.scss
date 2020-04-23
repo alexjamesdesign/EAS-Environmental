@@ -24,6 +24,14 @@
         font-size: 3.2rem;
     }
 
+    .btn {
+        margin: 10px 0px 0px 0px;
+
+        @include bp800 {
+            margin: 0px;
+        }
+    }
+
     .animate {
         opacity: 0;
 
