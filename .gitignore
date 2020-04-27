@@ -4,3 +4,5 @@ wp-config.php
 wp-content/uploads/*
 # Ignore Prepros config
 prepros-6.config
+.DS_Store
+wp-content/.DS_Store
