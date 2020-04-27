@@ -17,21 +17,6 @@
 		<?php include locate_template('parts/review-bar.php'); ?>
 		<?php include locate_template('parts/content-block-two.php'); ?>
 		<?php include locate_template('parts/content-block-three.php'); ?>
-
-		<!-- <div class="container">
-			<?php if (have_posts()): while (have_posts()): the_post(); ?>
-
-				<article class="copy">
-					<h1><?php the_field('h1'); ?></h1>
-					<?php the_content(); ?>
-				</article>
-
-				<aside class="sidebar">
-					<?php get_sidebar(); ?>
-				</aside>
-
-			<?php endwhile; endif; ?>
-		</div> -->
 	</main>
 
 	<?php include locate_template('parts/page-gallery.php'); ?>

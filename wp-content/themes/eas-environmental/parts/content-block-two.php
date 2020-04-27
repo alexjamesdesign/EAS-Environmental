@@ -49,9 +49,8 @@
             
                 <li>
                     <?php $icon = get_sub_field('icon'); if( !empty( $icon ) ): ?>
-                        <img src="<?php echo esc_url($icon['url']); ?>" alt="<?php echo esc_attr($icon['alt']); ?>" class="lazyload" />
+                    <img src="<?php echo esc_url($icon['url']); ?>" alt="<?php echo esc_attr($icon['alt']); ?>" class="lazyload" />
                     <?php endif; ?>
-                    
                     <span><?php the_sub_field('usp'); ?></span>
                 </li>
 
