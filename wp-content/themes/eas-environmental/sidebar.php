@@ -32,7 +32,7 @@ if (is_home() || is_singular('post') || is_month() || is_category() || is_search
 	<h2>Get Directions</h2>
 	<form class="directions" action="http://maps.google.com/maps" method="get" target="_blank">
 		<input type="text" name="saddr" placeholder="Enter postcode"/>
-		<input type="hidden" name="daddr" value="CM778D" />
+		<input type="hidden" name="daddr" value="CM77 8DL" />
 		<input name="get-directions" class="get-directions btn btn btn--blanc" type="submit" value="Get Directions" />
 	</form>
 
