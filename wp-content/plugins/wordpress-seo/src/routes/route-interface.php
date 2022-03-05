@@ -1,14 +1,12 @@
 <?php
-/**
- * Route interface.
- *
- * @package Yoast\YoastSEO\ORM\Routes
- */
 
 namespace Yoast\WP\SEO\Routes;
 
 use Yoast\WP\SEO\Loadable_Interface;
 
+/**
+ * Route interface.
+ */
 interface Route_Interface extends Loadable_Interface {
 
 	/**
