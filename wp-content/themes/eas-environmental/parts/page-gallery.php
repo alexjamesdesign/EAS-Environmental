@@ -1,3 +1,9 @@
+<script>
+window.addEventListener('load', function() {
+  baguetteBox.run('.gallery');
+});
+</script>
+
 <div class="page-gallery">
 
     <div class="page-gallery__container">
@@ -10,7 +16,7 @@
 
         <div class="page-gallery">
 
-            <div class="owl-gallery owl-carousel owl-theme">
+            <div class="gallery owl-gallery owl-carousel owl-theme">
                 
             <?php foreach( $images as $image ): ?>
 

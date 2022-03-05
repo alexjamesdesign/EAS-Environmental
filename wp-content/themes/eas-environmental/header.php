@@ -46,6 +46,7 @@
 	?>
 
 	<link rel="stylesheet" href="https://use.typekit.net/vax5nbt.css">
+	<link rel="stylesheet" href="<?php echo get_theme_file_uri('/css/baguetteBox.min.css'); ?>">
 
 </head>
 

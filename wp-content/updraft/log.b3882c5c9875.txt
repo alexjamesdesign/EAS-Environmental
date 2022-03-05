@@ -1,0 +1,778 @@
+0000.000 (0) Opened log file at time: Mon, 24 Jan 2022 18:44:05 +0000 on https://www.eas-environmental.co.uk
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.033 (0) Free space on disk containing Updraft's temporary directory: 32132 MB
+0000.037 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.038 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.045 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1642962785, seconds_ago=87060)
+0000.048 (0) Set semaphore last lock (fd) time to 2022-01-24 18:44:05
+0000.048 (0) Semaphore lock (fd) complete
+0000.052 (0) Backup run: resumption=0, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (0s ago), job type=backup
+0000.054 (0) Scheduling a resumption (1) after 300 seconds (1643050145) in case this run gets aborted
+0000.063 (0) Checking if we have a zip executable available
+0000.064 (0) Testing: /usr/bin/zip
+0000.068 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.072 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.074 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.075 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.076 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.080 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.081 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.089 (0) Working binary zip found: /usr/bin/zip
+0000.091 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.093 (0) Creation of backups of directories: beginning
+0000.096 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.193 (0) Total entities for the zip file: 1213 directories, 7414 files (0 skipped as non-modified), 94.3 MB
+0000.199 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.203 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.207 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.210 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.214 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.215 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 7414 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.563 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: size is now: 1.90 MB
+0000.568 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 600 files added (on-disk size: 1916.6 KB)
+0000.572 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 700 files added (on-disk size: 1916.6 KB)
+0000.575 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 800 files added (on-disk size: 1916.6 KB)
+0000.579 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 900 files added (on-disk size: 1916.6 KB)
+0000.583 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1000 files added (on-disk size: 1916.6 KB)
+0000.584 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 7414 files batched, 501 (1002) added so far); re-opening (prior size: 1916.6 KB)
+0001.114 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: size is now: 4.80 MB
+0001.119 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1100 files added (on-disk size: 4874.8 KB)
+0001.123 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1200 files added (on-disk size: 4874.8 KB)
+0001.127 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1300 files added (on-disk size: 4874.8 KB)
+0001.131 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1400 files added (on-disk size: 4874.8 KB)
+0001.135 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1500 files added (on-disk size: 4874.8 KB)
+0001.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 7414 files batched, 501 (1503) added so far); re-opening (prior size: 4874.8 KB)
+0001.713 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: size is now: 9.20 MB
+0001.718 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1600 files added (on-disk size: 9412.8 KB)
+0001.722 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1700 files added (on-disk size: 9412.8 KB)
+0001.726 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1800 files added (on-disk size: 9412.8 KB)
+0001.730 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 1900 files added (on-disk size: 9412.8 KB)
+0001.734 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2000 files added (on-disk size: 9412.8 KB)
+0001.735 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 7414 files batched, 501 (2004) added so far); re-opening (prior size: 9412.8 KB)
+0002.148 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: size is now: 11.20 MB
+0002.153 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2100 files added (on-disk size: 11495.4 KB)
+0002.156 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2200 files added (on-disk size: 11495.4 KB)
+0002.160 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2300 files added (on-disk size: 11495.4 KB)
+0002.163 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2400 files added (on-disk size: 11495.4 KB)
+0002.167 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2500 files added (on-disk size: 11495.4 KB)
+0002.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 7414 files batched, 501 (2505) added so far); re-opening (prior size: 11495.4 KB)
+0002.349 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2600 files added (on-disk size: 12139.3 KB)
+0002.353 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2700 files added (on-disk size: 12139.3 KB)
+0002.357 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2800 files added (on-disk size: 12139.3 KB)
+0002.360 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 2900 files added (on-disk size: 12139.3 KB)
+0002.364 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3000 files added (on-disk size: 12139.3 KB)
+0002.365 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 7414 files batched, 501 (3006) added so far); re-opening (prior size: 12139.3 KB)
+0002.966 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: size is now: 15.60 MB
+0002.970 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3100 files added (on-disk size: 15989.2 KB)
+0002.974 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3200 files added (on-disk size: 15989.2 KB)
+0002.977 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3300 files added (on-disk size: 15989.2 KB)
+0002.981 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3400 files added (on-disk size: 15989.2 KB)
+0002.984 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3500 files added (on-disk size: 15989.2 KB)
+0002.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.9 MB, 7414 files batched, 501 (3507) added so far); re-opening (prior size: 15989.2 KB)
+0003.810 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: size is now: 20.60 MB
+0003.815 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3600 files added (on-disk size: 21088.3 KB)
+0003.819 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3700 files added (on-disk size: 21088.3 KB)
+0003.822 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3800 files added (on-disk size: 21088.3 KB)
+0003.826 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 3900 files added (on-disk size: 21088.3 KB)
+0003.830 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4000 files added (on-disk size: 21088.3 KB)
+0003.831 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 7414 files batched, 501 (4008) added so far); re-opening (prior size: 21088.3 KB)
+0004.193 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4100 files added (on-disk size: 23260.4 KB)
+0004.196 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4200 files added (on-disk size: 23260.4 KB)
+0004.200 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4300 files added (on-disk size: 23260.4 KB)
+0004.204 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4400 files added (on-disk size: 23260.4 KB)
+0004.208 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4500 files added (on-disk size: 23260.4 KB)
+0004.209 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 7414 files batched, 501 (4509) added so far); re-opening (prior size: 23260.4 KB)
+0004.394 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4600 files added (on-disk size: 23861.3 KB)
+0004.399 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4700 files added (on-disk size: 23861.3 KB)
+0004.404 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4800 files added (on-disk size: 23861.3 KB)
+0004.408 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 4900 files added (on-disk size: 23861.3 KB)
+0004.411 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5000 files added (on-disk size: 23861.3 KB)
+0004.412 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 7414 files batched, 501 (5010) added so far); re-opening (prior size: 23861.3 KB)
+0004.663 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5100 files added (on-disk size: 25441 KB)
+0004.666 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5200 files added (on-disk size: 25441 KB)
+0004.670 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5300 files added (on-disk size: 25441 KB)
+0004.674 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5400 files added (on-disk size: 25441 KB)
+0004.678 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5500 files added (on-disk size: 25441 KB)
+0004.679 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 7414 files batched, 501 (5511) added so far); re-opening (prior size: 25441 KB)
+0004.963 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5600 files added (on-disk size: 26581 KB)
+0004.966 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5700 files added (on-disk size: 26581 KB)
+0004.970 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5800 files added (on-disk size: 26581 KB)
+0004.973 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 5900 files added (on-disk size: 26581 KB)
+0004.977 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6000 files added (on-disk size: 26581 KB)
+0004.978 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 7414 files batched, 501 (6012) added so far); re-opening (prior size: 26581 KB)
+0005.210 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6100 files added (on-disk size: 27547.1 KB)
+0005.214 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6200 files added (on-disk size: 27547.1 KB)
+0005.218 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6300 files added (on-disk size: 27547.1 KB)
+0005.221 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6400 files added (on-disk size: 27547.1 KB)
+0005.225 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6500 files added (on-disk size: 27547.1 KB)
+0005.227 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 7414 files batched, 501 (6513) added so far); re-opening (prior size: 27547.1 KB)
+0005.404 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6600 files added (on-disk size: 28014 KB)
+0005.408 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6700 files added (on-disk size: 28014 KB)
+0005.412 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6800 files added (on-disk size: 28014 KB)
+0005.415 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 6900 files added (on-disk size: 28014 KB)
+0005.418 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 7000 files added (on-disk size: 28014 KB)
+0005.420 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.6 MB, 7414 files batched, 501 (7014) added so far); re-opening (prior size: 28014 KB)
+0005.586 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 7100 files added (on-disk size: 28358.1 KB)
+0005.590 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 7200 files added (on-disk size: 28358.1 KB)
+0005.593 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 7300 files added (on-disk size: 28358.1 KB)
+0005.597 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip.tmp: 7400 files added (on-disk size: 28358.1 KB)
+0006.282 (0) Created plugins zip (0) - 31346.3 KB in 6.2 s (5086 KB/s) (sha1: 81e634e44ce2609d71de8e657ba0c936e18515be, sha256: bc3c6daf4ddba6dd58c52ff93475cef8afa512fca18f845e34f5af62bfbadfa8)
+0006.285 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.311 (0) Total entities for the zip file: 30 directories, 136 files (0 skipped as non-modified), 0.8 MB
+0006.315 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.389 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip.tmp: size is now: 0.30 MB
+0006.395 (0) Created themes zip (0) - 306.5 KB in 0.1 s (3510.4 KB/s) (sha1: abc48dfb66cca9a6b3a50d179c52b62760cb931a, sha256: f3b2a79c8441cbcd949b099a11e788d3b543650545650d2e68fe82d29e22a88f)
+0006.397 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.398 (0) Looking for candidates to backup in: /home/enviroeas/public_html/wp-content/uploads
+0006.399 (0) finding files: wp-migrate-db: adding to list (1)
+0006.400 (0) finding files: 2021: adding to list (2)
+0006.400 (0) finding files: 2020: adding to list (3)
+0006.401 (0) finding files: 2022: adding to list (4)
+0006.401 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.431 (0) Total entities for the zip file: 27 directories, 222 files (0 skipped as non-modified), 21.4 MB
+0006.434 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.438 (0) Zip: backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.702 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip.tmp: size is now: 21.40 MB
+0006.868 (0) Created uploads zip (0) - 21954.5 KB in 0.4 s (49388.3 KB/s) (sha1: 3aee4db5436656284e8c82e93de55ebd05375f60, sha256: 9a855b25dfdcf35a849e1a2a9bbdcd8d87f01bb16e722c82da358559bb757a34)
+0006.871 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.871 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.872 (0) Looking for candidates to backup in: /home/enviroeas/public_html/wp-content
+0006.873 (0) finding files: languages: adding to list (1)
+0006.874 (0) finding files: mu-plugins: adding to list (2)
+0006.874 (0) finding files: plugins: skipping: this is the plugins directory
+0006.875 (0) finding files: upgrade: skipping: excluded by options
+0006.875 (0) finding files: uploads: skipping: this is the uploads directory
+0006.876 (0) finding files: maintenance: adding to list (3)
+0006.876 (0) finding files: wflogs: adding to list (4)
+0006.877 (0) finding files: updraft: skipping: this is the updraft directory
+0006.877 (0) finding files: maintenance.php: adding to list (5)
+0006.878 (0) finding files: .DS_Store: adding to list (6)
+0006.879 (0) finding files: themes: skipping: this is the themes directory
+0006.904 (0) Total entities for the zip file: 9 directories, 78 files (0 skipped as non-modified), 11.7 MB
+0007.398 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip.tmp: size is now: 6.00 MB
+0007.448 (0) Created others zip (0) - 6186.2 KB in 0.5 s (11312.2 KB/s) (sha1: bf9ae10f8a0836c566098f775087755577a51790, sha256: c87399339d9a41b92fdb35b90fee91750abee2936a6b350a30a9f3233c6d4d87)
+0007.453 (0) Saving backup status to database (elements: 8)
+0007.455 (0) Beginning creation of database dump (WordPress DB)
+0007.457 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0007.467 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `adtrakwp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 * (truncated - 1282 bytes total)
+0007.469 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0007.474 (0) Table adtrakwp_options: Total expected rows (approximate): 371
+0007.483 (0) Table adtrakwp_options: Total rows added: 367 in 0.01 seconds
+0007.485 (0) Table adtrakwp_options: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_options.table.gz - 25.1 KB)
+0007.489 (0) Table adtrakwp_users: Total expected rows (approximate): 2
+0007.491 (0) Table adtrakwp_users: Total rows added: 2 in 0.00 seconds
+0007.492 (0) Table adtrakwp_users: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_users.table.gz - 0.6 KB)
+0007.496 (0) Table adtrakwp_usermeta: Total expected rows (approximate): 53
+0007.497 (0) Table adtrakwp_usermeta: Total rows added: 53 in 0.00 seconds
+0007.498 (0) Table adtrakwp_usermeta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_usermeta.table.gz - 2.9 KB)
+0007.501 (0) Table adtrakwp_commentmeta: Total expected rows (approximate): 0
+0007.503 (0) Table adtrakwp_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.504 (0) Table adtrakwp_commentmeta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_commentmeta.table.gz - 0.4 KB)
+0007.508 (0) Table adtrakwp_comments: Total expected rows (approximate): 0
+0007.510 (0) Table adtrakwp_comments: Total rows added: 1 in 0.00 seconds
+0007.511 (0) Table adtrakwp_comments: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_comments.table.gz - 0.7 KB)
+0007.514 (0) Table adtrakwp_links: Total expected rows (approximate): 0
+0007.516 (0) Table adtrakwp_links: Total rows added: 0 in 0.00 seconds
+0007.517 (0) Table adtrakwp_links: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_links.table.gz - 0.4 KB)
+0007.520 (0) Table adtrakwp_postmeta: Total expected rows (approximate): 20000
+0007.593 (0) Table adtrakwp_postmeta: binary mysqldump finished (writes: 33) in 0.07 seconds
+0007.594 (0) Table adtrakwp_postmeta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_postmeta.table.gz - 311.1 KB)
+0007.599 (0) Table adtrakwp_posts: Total expected rows (approximate): 450
+0007.620 (0) Table adtrakwp_posts: Total rows added: 1054 in 0.02 seconds
+0007.621 (0) Table adtrakwp_posts: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_posts.table.gz - 37 KB)
+0007.625 (0) Table adtrakwp_term_relationships: Total expected rows (approximate): 38
+0007.627 (0) Table adtrakwp_term_relationships: Total rows added: 38 in 0.00 seconds
+0007.628 (0) Table adtrakwp_term_relationships: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_term_relationships.table.gz - 0.5 KB)
+0007.632 (0) Table adtrakwp_term_taxonomy: Total expected rows (approximate): 3
+0007.633 (0) Table adtrakwp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0007.634 (0) Table adtrakwp_term_taxonomy: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_term_taxonomy.table.gz - 0.5 KB)
+0007.638 (0) Table adtrakwp_termmeta: Total expected rows (approximate): 0
+0007.640 (0) Table adtrakwp_termmeta: Total rows added: 0 in 0.00 seconds
+0007.641 (0) Table adtrakwp_termmeta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_termmeta.table.gz - 0.4 KB)
+0007.644 (0) Table adtrakwp_terms: Total expected rows (approximate): 3
+0007.646 (0) Table adtrakwp_terms: Total rows added: 3 in 0.00 seconds
+0007.647 (0) Table adtrakwp_terms: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_terms.table.gz - 0.4 KB)
+0007.650 (0) Table adtrakwp_yoast_seo_links: Total expected rows (approximate): 0
+0007.651 (0) Table adtrakwp_yoast_seo_links: Total rows added: 1 in 0.00 seconds
+0007.652 (0) Table adtrakwp_yoast_seo_links: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_seo_links.table.gz - 0.4 KB)
+0007.655 (0) Table adtrakwp_yoast_seo_meta: Total expected rows (approximate): 107
+0007.657 (0) Table adtrakwp_yoast_seo_meta: Total rows added: 107 in 0.00 seconds
+0007.658 (0) Table adtrakwp_yoast_seo_meta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_seo_meta.table.gz - 0.6 KB)
+0007.659 (0) Skipping table (lacks our prefix (adtrakwp_)): _mig_adtrakwp_aryo_activity_log
+0007.660 (0) Skipping table (lacks our prefix (adtrakwp_)): _mig_adtrakwp_commentmeta
+0007.660 (0) Skipping table (lacks our prefix (adtrakwp_)): _mig_adtrakwp_comments
+0007.661 (0) Skipping table (lacks our prefix (adtrakwp_)): _mig_adtrakwp_links
+0007.661 (0) Skipping table (lacks our prefix (adtrakwp_)): _mig_wpmdb_alter_statements
+0007.664 (0) Table adtrakwp_aryo_activity_log: Total expected rows (approximate): 26
+0007.666 (0) Table adtrakwp_aryo_activity_log: Total rows added: 26 in 0.00 seconds
+0007.667 (0) Table adtrakwp_aryo_activity_log: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_aryo_activity_log.table.gz - 1 KB)
+0007.670 (0) Table adtrakwp_nf3_action_meta: Total expected rows (approximate): 93
+0007.672 (0) Table adtrakwp_nf3_action_meta: Total rows added: 93 in 0.00 seconds
+0007.673 (0) Table adtrakwp_nf3_action_meta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_action_meta.table.gz - 1.9 KB)
+0007.675 (0) Table adtrakwp_nf3_actions: Total expected rows (approximate): 4
+0007.677 (0) Table adtrakwp_nf3_actions: Total rows added: 4 in 0.00 seconds
+0007.678 (0) Table adtrakwp_nf3_actions: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_actions.table.gz - 0.5 KB)
+0007.680 (0) Table adtrakwp_nf3_chunks: Total expected rows (approximate): 0
+0007.682 (0) Table adtrakwp_nf3_chunks: Total rows added: 0 in 0.00 seconds
+0007.682 (0) Table adtrakwp_nf3_chunks: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_chunks.table.gz - 0.3 KB)
+0007.685 (0) Table adtrakwp_nf3_field_meta: Total expected rows (approximate): 309
+0007.689 (0) Table adtrakwp_nf3_field_meta: Total rows added: 309 in 0.00 seconds
+0007.690 (0) Table adtrakwp_nf3_field_meta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_field_meta.table.gz - 3 KB)
+0007.693 (0) Table adtrakwp_nf3_fields: Total expected rows (approximate): 5
+0007.695 (0) Table adtrakwp_nf3_fields: Total rows added: 5 in 0.00 seconds
+0007.696 (0) Table adtrakwp_nf3_fields: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_fields.table.gz - 0.7 KB)
+0007.699 (0) Table adtrakwp_nf3_form_meta: Total expected rows (approximate): 114
+0007.702 (0) Table adtrakwp_nf3_form_meta: Total rows added: 114 in 0.00 seconds
+0007.703 (0) Table adtrakwp_nf3_form_meta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_form_meta.table.gz - 1.8 KB)
+0007.708 (0) Table adtrakwp_nf3_forms: Total expected rows (approximate): 0
+0007.711 (0) Table adtrakwp_nf3_forms: Total rows added: 1 in 0.00 seconds
+0007.712 (0) Table adtrakwp_nf3_forms: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_forms.table.gz - 0.5 KB)
+0007.716 (0) Table adtrakwp_nf3_object_meta: Total expected rows (approximate): 0
+0007.718 (0) Table adtrakwp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0007.719 (0) Table adtrakwp_nf3_object_meta: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_object_meta.table.gz - 0.3 KB)
+0007.722 (0) Table adtrakwp_nf3_objects: Total expected rows (approximate): 0
+0007.724 (0) Table adtrakwp_nf3_objects: Total rows added: 0 in 0.00 seconds
+0007.725 (0) Table adtrakwp_nf3_objects: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_objects.table.gz - 0.4 KB)
+0007.731 (0) Table adtrakwp_nf3_relationships: Total expected rows (approximate): 0
+0007.734 (0) Table adtrakwp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0007.735 (0) Table adtrakwp_nf3_relationships: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_relationships.table.gz - 0.4 KB)
+0007.740 (0) Table adtrakwp_nf3_upgrades: Total expected rows (approximate): 0
+0007.743 (0) Table adtrakwp_nf3_upgrades: Total rows added: 1 in 0.00 seconds
+0007.745 (0) Table adtrakwp_nf3_upgrades: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_upgrades.table.gz - 3.3 KB)
+0007.748 (0) Table adtrakwp_redirection_404: Total expected rows (approximate): 57
+0007.750 (0) Table adtrakwp_redirection_404: Total rows added: 57 in 0.00 seconds
+0007.751 (0) Table adtrakwp_redirection_404: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_404.table.gz - 1.9 KB)
+0007.755 (0) Table adtrakwp_redirection_groups: Total expected rows (approximate): 2
+0007.758 (0) Table adtrakwp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0007.759 (0) Table adtrakwp_redirection_groups: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_groups.table.gz - 0.5 KB)
+0007.764 (0) Table adtrakwp_redirection_items: Total expected rows (approximate): 0
+0007.766 (0) Table adtrakwp_redirection_items: Total rows added: 0 in 0.00 seconds
+0007.767 (0) Table adtrakwp_redirection_items: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_items.table.gz - 0.5 KB)
+0007.771 (0) Table adtrakwp_redirection_logs: Total expected rows (approximate): 0
+0007.773 (0) Table adtrakwp_redirection_logs: Total rows added: 0 in 0.00 seconds
+0007.775 (0) Table adtrakwp_redirection_logs: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_logs.table.gz - 0.4 KB)
+0007.778 (0) Table adtrakwp_wfblockediplog: Total expected rows (approximate): 48
+0007.781 (0) Table adtrakwp_wfblockediplog: Total rows added: 46 in 0.00 seconds
+0007.782 (0) Table adtrakwp_wfblockediplog: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfblockediplog.table.gz - 0.8 KB)
+0007.785 (0) Table adtrakwp_wfblocks7: Total expected rows (approximate): 0
+0007.787 (0) Table adtrakwp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0007.788 (0) Table adtrakwp_wfblocks7: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfblocks7.table.gz - 0.4 KB)
+0007.791 (0) Table adtrakwp_wfconfig: Total expected rows (approximate): 252
+0007.830 (0) Table adtrakwp_wfconfig: Total rows added: 255 in 0.04 seconds
+0007.831 (0) Table adtrakwp_wfconfig: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfconfig.table.gz - 434 KB)
+0007.836 (0) Table adtrakwp_wfcrawlers: Total expected rows (approximate): 76
+0007.838 (0) Table adtrakwp_wfcrawlers: Total rows added: 76 in 0.00 seconds
+0007.839 (0) Table adtrakwp_wfcrawlers: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfcrawlers.table.gz - 1.4 KB)
+0007.844 (0) Table adtrakwp_wffilechanges: Total expected rows (approximate): 0
+0007.847 (0) Table adtrakwp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0007.848 (0) Table adtrakwp_wffilechanges: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wffilechanges.table.gz - 0.3 KB)
+0007.853 (0) Table adtrakwp_wffilemods: Total expected rows (approximate): 8007
+0007.967 (0) Table adtrakwp_wffilemods: binary mysqldump finished (writes: 36) in 0.11 seconds
+0007.969 (0) Table adtrakwp_wffilemods: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wffilemods.table.gz - 742.2 KB)
+0007.972 (0) Table adtrakwp_wfhits: Total expected rows (approximate): 406
+0007.987 (0) Table adtrakwp_wfhits: Total rows added: 491 in 0.01 seconds
+0007.989 (0) Table adtrakwp_wfhits: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfhits.table.gz - 16.6 KB)
+0007.993 (0) Table adtrakwp_wfhoover: Total expected rows (approximate): 0
+0007.995 (0) Table adtrakwp_wfhoover: Total rows added: 0 in 0.00 seconds
+0007.996 (0) Table adtrakwp_wfhoover: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfhoover.table.gz - 0.3 KB)
+0008.000 (0) Table adtrakwp_wfissues: Total expected rows (approximate): 16
+0008.004 (0) Table adtrakwp_wfissues: Total rows added: 16 in 0.00 seconds
+0008.005 (0) Table adtrakwp_wfissues: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfissues.table.gz - 4.7 KB)
+0008.008 (0) Table adtrakwp_wfknownfilelist: Total expected rows (approximate): 8296
+0008.042 (0) Table adtrakwp_wfknownfilelist: binary mysqldump finished (writes: 28) in 0.03 seconds
+0008.043 (0) Table adtrakwp_wfknownfilelist: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfknownfilelist.table.gz - 85.4 KB)
+0008.048 (0) Table adtrakwp_wflivetraffichuman: Total expected rows (approximate): 0
+0008.049 (0) Table adtrakwp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0008.050 (0) Table adtrakwp_wflivetraffichuman: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wflivetraffichuman.table.gz - 0.3 KB)
+0008.054 (0) Table adtrakwp_wflocs: Total expected rows (approximate): 0
+0008.056 (0) Table adtrakwp_wflocs: Total rows added: 0 in 0.00 seconds
+0008.056 (0) Table adtrakwp_wflocs: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wflocs.table.gz - 0.4 KB)
+0008.060 (0) Table adtrakwp_wflogins: Total expected rows (approximate): 1998
+0008.082 (0) Table adtrakwp_wflogins: Total rows added: 2000 in 0.02 seconds
+0008.084 (0) Table adtrakwp_wflogins: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wflogins.table.gz - 35.7 KB)
+0008.088 (0) Table adtrakwp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0008.090 (0) Table adtrakwp_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0008.091 (0) Table adtrakwp_wfls_2fa_secrets: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0008.094 (0) Table adtrakwp_wfls_settings: Total expected rows (approximate): 19
+0008.096 (0) Table adtrakwp_wfls_settings: Total rows added: 19 in 0.00 seconds
+0008.097 (0) Table adtrakwp_wfls_settings: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfls_settings.table.gz - 0.8 KB)
+0008.100 (0) Table adtrakwp_wfnotifications: Total expected rows (approximate): 4
+0008.102 (0) Table adtrakwp_wfnotifications: Total rows added: 6 in 0.00 seconds
+0008.103 (0) Table adtrakwp_wfnotifications: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfnotifications.table.gz - 1 KB)
+0008.107 (0) Table adtrakwp_wfpendingissues: Total expected rows (approximate): 0
+0008.109 (0) Table adtrakwp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0008.110 (0) Table adtrakwp_wfpendingissues: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfpendingissues.table.gz - 0.4 KB)
+0008.114 (0) Table adtrakwp_wfreversecache: Total expected rows (approximate): 9
+0008.116 (0) Table adtrakwp_wfreversecache: Total rows added: 9 in 0.00 seconds
+0008.117 (0) Table adtrakwp_wfreversecache: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfreversecache.table.gz - 0.5 KB)
+0008.120 (0) Table adtrakwp_wfsnipcache: Total expected rows (approximate): 0
+0008.123 (0) Table adtrakwp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0008.124 (0) Table adtrakwp_wfsnipcache: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfsnipcache.table.gz - 0.4 KB)
+0008.127 (0) Table adtrakwp_wfstatus: Total expected rows (approximate): 933
+0008.136 (0) Table adtrakwp_wfstatus: Total rows added: 963 in 0.01 seconds
+0008.137 (0) Table adtrakwp_wfstatus: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfstatus.table.gz - 14.3 KB)
+0008.141 (0) Table adtrakwp_wftrafficrates: Total expected rows (approximate): 0
+0008.142 (0) Table adtrakwp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0008.143 (0) Table adtrakwp_wftrafficrates: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wftrafficrates.table.gz - 0.3 KB)
+0008.146 (0) Table adtrakwp_yoast_indexable: Total expected rows (approximate): 284
+0008.163 (0) Table adtrakwp_yoast_indexable: Total rows added: 700 in 0.02 seconds
+0008.164 (0) Table adtrakwp_yoast_indexable: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_indexable.table.gz - 34.4 KB)
+0008.168 (0) Table adtrakwp_yoast_indexable_hierarchy: Total expected rows (approximate): 43
+0008.171 (0) Table adtrakwp_yoast_indexable_hierarchy: Total rows added: 43 in 0.00 seconds
+0008.172 (0) Table adtrakwp_yoast_indexable_hierarchy: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_indexable_hierarchy.table.gz - 0.5 KB)
+0008.175 (0) Table adtrakwp_yoast_migrations: Total expected rows (approximate): 9
+0008.177 (0) Table adtrakwp_yoast_migrations: Total rows added: 9 in 0.00 seconds
+0008.178 (0) Table adtrakwp_yoast_migrations: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_migrations.table.gz - 0.5 KB)
+0008.182 (0) Table adtrakwp_yoast_primary_term: Total expected rows (approximate): 0
+0008.184 (0) Table adtrakwp_yoast_primary_term: Total rows added: 0 in 0.00 seconds
+0008.185 (0) Table adtrakwp_yoast_primary_term: finishing file (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_primary_term.table.gz - 0.4 KB)
+0008.187 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_options.table.gz (1/60): adding to final database dump
+0008.191 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_users.table.gz (2/60): adding to final database dump
+0008.192 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_usermeta.table.gz (3/60): adding to final database dump
+0008.193 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_commentmeta.table.gz (4/60): adding to final database dump
+0008.194 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_comments.table.gz (5/60): adding to final database dump
+0008.195 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_links.table.gz (6/60): adding to final database dump
+0008.195 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_postmeta.table.gz (7/60): adding to final database dump
+0008.245 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_posts.table.gz (8/60): adding to final database dump
+0008.253 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_term_relationships.table.gz (9/60): adding to final database dump
+0008.254 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_term_taxonomy.table.gz (10/60): adding to final database dump
+0008.255 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_termmeta.table.gz (11/60): adding to final database dump
+0008.255 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_terms.table.gz (12/60): adding to final database dump
+0008.256 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_seo_links.table.gz (13/60): adding to final database dump
+0008.257 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_seo_meta.table.gz (14/60): adding to final database dump
+0008.258 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_aryo_activity_log.table.gz (15/60): adding to final database dump
+0008.259 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_action_meta.table.gz (16/60): adding to final database dump
+0008.260 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_actions.table.gz (17/60): adding to final database dump
+0008.260 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_chunks.table.gz (18/60): adding to final database dump
+0008.261 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_field_meta.table.gz (19/60): adding to final database dump
+0008.262 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_fields.table.gz (20/60): adding to final database dump
+0008.263 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_form_meta.table.gz (21/60): adding to final database dump
+0008.264 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_forms.table.gz (22/60): adding to final database dump
+0008.265 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_object_meta.table.gz (23/60): adding to final database dump
+0008.265 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_objects.table.gz (24/60): adding to final database dump
+0008.266 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_relationships.table.gz (25/60): adding to final database dump
+0008.266 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_nf3_upgrades.table.gz (26/60): adding to final database dump
+0008.267 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_404.table.gz (27/60): adding to final database dump
+0008.268 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_groups.table.gz (28/60): adding to final database dump
+0008.269 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_items.table.gz (29/60): adding to final database dump
+0008.270 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_redirection_logs.table.gz (30/60): adding to final database dump
+0008.270 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfblockediplog.table.gz (31/60): adding to final database dump
+0008.271 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfblocks7.table.gz (32/60): adding to final database dump
+0008.271 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfconfig.table.gz (33/60): adding to final database dump
+0008.313 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfcrawlers.table.gz (34/60): adding to final database dump
+0008.315 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wffilechanges.table.gz (35/60): adding to final database dump
+0008.316 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wffilemods.table.gz (36/60): adding to final database dump
+0008.368 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfhits.table.gz (37/60): adding to final database dump
+0008.373 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfhoover.table.gz (38/60): adding to final database dump
+0008.374 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfissues.table.gz (39/60): adding to final database dump
+0008.376 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfknownfilelist.table.gz (40/60): adding to final database dump
+0008.390 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wflivetraffichuman.table.gz (41/60): adding to final database dump
+0008.391 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wflocs.table.gz (42/60): adding to final database dump
+0008.392 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wflogins.table.gz (43/60): adding to final database dump
+0008.399 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfls_2fa_secrets.table.gz (44/60): adding to final database dump
+0008.401 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfls_settings.table.gz (45/60): adding to final database dump
+0008.403 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfnotifications.table.gz (46/60): adding to final database dump
+0008.404 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfpendingissues.table.gz (47/60): adding to final database dump
+0008.405 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfreversecache.table.gz (48/60): adding to final database dump
+0008.406 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfsnipcache.table.gz (49/60): adding to final database dump
+0008.407 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wfstatus.table.gz (50/60): adding to final database dump
+0008.409 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_wftrafficrates.table.gz (51/60): adding to final database dump
+0008.411 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_indexable.table.gz (52/60): adding to final database dump
+0008.416 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_indexable_hierarchy.table.gz (53/60): adding to final database dump
+0008.418 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_migrations.table.gz (54/60): adding to final database dump
+0008.419 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db-table-adtrakwp_yoast_primary_term.table.gz (55/60): adding to final database dump
+0008.423 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: finished writing out complete database file (1744 KB)
+0008.443 (0) Total database tables backed up: 55 (backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz, size: 1807626, sha1: 6fd00a75fde014b6a82b4a63d1ca087d8b57cddb, sha256: c833d4e8bf655bdbbec1f6b7059fd8a52c42a435fadfb40a9e21579569d88907)
+0008.449 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.449 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.450 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.450 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.451 (0) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.452 (0) Saving backup history. Total backup size: 60.1 MB
+0008.454 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.457 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0008.457 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+0008.739 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+0008.740 (0) An error condition has occurred for the first time during this job
+0008.743 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0008.745 (0) Number of backup sets in history: 2; groups (db): 1
+0008.746 (0) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+0008.747 (0) This backup set is the backup set just made, so will not be deleted.
+0008.747 (0) Examining (for databases) backup set with group_id=0, nonce=8b608963337e, datestamp=1642962785 (Jan 23 2022 18:33:05)
+0008.747 (0) 1642962785: db: this set includes a database (backup_2022-01-23-1833_EAS_Environmental_8b608963337e-db.gz); db count is now 1
+0008.747 (0) 1642962785: db: over retain limit (1); will delete this database
+0008.747 (0) Delete file: backup_2022-01-23-1833_EAS_Environmental_8b608963337e-db.gz, service=googledrive
+0008.924 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+0008.925 (0) Google Drive: delete: failed due to storage error: http_request_failed (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 )
+0008.928 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0008.929 (0) Number of backup sets in history: 2; groups (files): 1
+0008.929 (0) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+0008.929 (0) This backup set is the backup set just made, so will not be deleted.
+0008.930 (0) This backup set is the backup set just made, so will not be deleted.
+0008.930 (0) This backup set is the backup set just made, so will not be deleted.
+0008.930 (0) This backup set is the backup set just made, so will not be deleted.
+0008.930 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.931 (0) Examining (for files) backup set with nonce=8b608963337e, datestamp=1642962785 (Jan 23 2022 18:33:05)
+0008.931 (0) plugins: over retain limit (1); will delete this file entity
+0008.931 (0) themes: over retain limit (1); will delete this file entity
+0008.931 (0) uploads: over retain limit (1); will delete this file entity
+0008.931 (0) others: over retain limit (1); will delete this file entity
+0008.931 (0) Delete file: backup_2022-01-23-1833_EAS_Environmental_62485324e979-plugins.zip, service=googledrive
+0008.932 (0) Deleting local copy (backup_2022-01-23-1833_EAS_Environmental_62485324e979-plugins.zip)
+0008.936 (0) Delete file: backup_2022-01-23-1833_EAS_Environmental_62485324e979-themes.zip, service=googledrive
+0008.937 (0) Deleting local copy (backup_2022-01-23-1833_EAS_Environmental_62485324e979-themes.zip)
+0008.939 (0) Delete file: backup_2022-01-23-1833_EAS_Environmental_62485324e979-uploads.zip, service=googledrive
+0008.939 (0) Deleting local copy (backup_2022-01-23-1833_EAS_Environmental_62485324e979-uploads.zip)
+0008.941 (0) Delete file: backup_2022-01-23-1833_EAS_Environmental_62485324e979-others.zip, service=googledrive
+0008.942 (0) Deleting local copy (backup_2022-01-23-1833_EAS_Environmental_62485324e979-others.zip)
+0009.122 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+0009.124 (0) Google Drive: delete: failed due to storage error: http_request_failed (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 )
+0009.125 (0) This backup set is now empty; will remove from history
+0009.126 (0) Deleting log file (log.8b608963337e.txt)
+0009.128 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0009.131 (0) Resume backup (b3882c5c9875, 0): finish run
+0009.134 (0) Decremented the semaphore (fd) by 1
+0009.135 (0) Semaphore (fd) unlocked
+0009.136 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0009.139 (0) Rescheduling resumption 1: moving to 100 seconds from now (1643049954)
+0009.140 (0) No email will/can be sent - the user has not configured an email address.
+0009.141 (0) The backup has not finished; a resumption is scheduled
+0539.775 (1) Opened log file at time: Mon, 24 Jan 2022 18:53:05 +0000 on https://www.eas-environmental.co.uk
+0539.776 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0539.798 (1) Free space on disk containing Updraft's temporary directory: 32130 MB
+0539.800 (1) Backup run: resumption=1, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (540s ago), job type=backup, previous check-in=9.1s
+0539.801 (1) Scheduling a resumption (2) after 300 seconds (1643050685) in case this run gets aborted
+0539.807 (1) Checking if we have a zip executable available
+0539.808 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0539.808 (1) Creation of backups of directories: already finished
+0539.809 (1) Saving backup status to database (elements: 8)
+0539.812 (1) Database dump (WordPress DB): Creation was completed already
+0539.814 (1) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0539.815 (1) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0539.815 (1) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0539.816 (1) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+0539.816 (1) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+0539.817 (1) Saving backup history. Total backup size: 60.1 MB
+0539.818 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0539.819 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0539.819 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+0540.002 (1) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+0540.003 (1) An error condition has occurred for the first time during this job
+0540.005 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0540.006 (1) Number of backup sets in history: 1; groups (db): 1
+0540.006 (1) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+0540.007 (1) This backup set is the backup set just made, so will not be deleted.
+0540.007 (1) Number of backup sets in history: 1; groups (files): 1
+0540.008 (1) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+0540.008 (1) This backup set is the backup set just made, so will not be deleted.
+0540.008 (1) This backup set is the backup set just made, so will not be deleted.
+0540.009 (1) This backup set is the backup set just made, so will not be deleted.
+0540.009 (1) This backup set is the backup set just made, so will not be deleted.
+0540.009 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0540.009 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0540.011 (1) Resume backup (b3882c5c9875, 1): finish run
+0540.013 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0540.014 (1) No email will/can be sent - the user has not configured an email address.
+0540.015 (1) The backup has not finished; a resumption is scheduled
+1115.140 (2) Opened log file at time: Mon, 24 Jan 2022 19:02:40 +0000 on http://www.eas-environmental.co.uk
+1115.141 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 24.9M | 26M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+1115.177 (2) Free space on disk containing Updraft's temporary directory: 32129.8 MB
+1115.179 (2) Backup run: resumption=2, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (1115s ago), job type=backup
+1115.181 (2) Scheduling a resumption (3) after 300 seconds (1643051260) in case this run gets aborted
+1115.188 (2) Checking if we have a zip executable available
+1115.189 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1115.189 (2) Creation of backups of directories: already finished
+1115.190 (2) Saving backup status to database (elements: 8)
+1115.194 (2) Database dump (WordPress DB): Creation was completed already
+1115.197 (2) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1115.197 (2) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1115.198 (2) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1115.198 (2) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+1115.199 (2) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+1115.200 (2) Saving backup history. Total backup size: 60.1 MB
+1115.201 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+1115.202 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1115.203 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+1115.259 (2) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+1115.261 (2) An error condition has occurred for the first time during this job
+1115.262 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+1115.263 (2) Number of backup sets in history: 1; groups (db): 1
+1115.264 (2) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+1115.264 (2) This backup set is the backup set just made, so will not be deleted.
+1115.264 (2) Number of backup sets in history: 1; groups (files): 1
+1115.265 (2) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+1115.265 (2) This backup set is the backup set just made, so will not be deleted.
+1115.265 (2) This backup set is the backup set just made, so will not be deleted.
+1115.266 (2) This backup set is the backup set just made, so will not be deleted.
+1115.266 (2) This backup set is the backup set just made, so will not be deleted.
+1115.266 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1115.266 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1115.268 (2) Resume backup (b3882c5c9875, 2): finish run
+1115.270 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1115.271 (2) No email will/can be sent - the user has not configured an email address.
+1115.272 (2) The backup has not finished; a resumption is scheduled
+1753.728 (3) Opened log file at time: Mon, 24 Jan 2022 19:13:19 +0000 on https://www.eas-environmental.co.uk
+1753.729 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 8M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+1753.751 (3) Free space on disk containing Updraft's temporary directory: 32129.6 MB
+1753.753 (3) Backup run: resumption=3, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (1754s ago), job type=backup
+1753.755 (3) Scheduling a resumption (4) after 300 seconds (1643051899) in case this run gets aborted
+1753.761 (3) Checking if we have a zip executable available
+1753.761 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1753.762 (3) Creation of backups of directories: already finished
+1753.762 (3) Saving backup status to database (elements: 8)
+1753.766 (3) Database dump (WordPress DB): Creation was completed already
+1753.769 (3) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1753.770 (3) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1753.770 (3) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1753.771 (3) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+1753.771 (3) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+1753.772 (3) Saving backup history. Total backup size: 60.1 MB
+1753.774 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1753.776 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1753.776 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+1754.037 (3) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+1754.038 (3) An error condition has occurred for the first time during this job
+1754.039 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+1754.040 (3) Number of backup sets in history: 1; groups (db): 1
+1754.041 (3) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+1754.041 (3) This backup set is the backup set just made, so will not be deleted.
+1754.041 (3) Number of backup sets in history: 1; groups (files): 1
+1754.042 (3) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+1754.042 (3) This backup set is the backup set just made, so will not be deleted.
+1754.042 (3) This backup set is the backup set just made, so will not be deleted.
+1754.042 (3) This backup set is the backup set just made, so will not be deleted.
+1754.042 (3) This backup set is the backup set just made, so will not be deleted.
+1754.042 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1754.043 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1754.045 (3) Resume backup (b3882c5c9875, 3): finish run
+1754.046 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1754.047 (3) No email will/can be sent - the user has not configured an email address.
+1754.047 (3) The backup has not finished; a resumption is scheduled
+3763.122 (4) Opened log file at time: Mon, 24 Jan 2022 19:46:48 +0000 on https://www.eas-environmental.co.uk
+3763.123 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+3763.152 (4) Free space on disk containing Updraft's temporary directory: 32129.1 MB
+3763.154 (4) Backup run: resumption=4, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (3763s ago), job type=backup
+3763.155 (4) Long time past since expected resumption time: approx expected=1643051899, now=1643053608.4, diff=1709.4
+3763.157 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3763.159 (4) Scheduling a resumption (5) after 300 seconds (1643053908) in case this run gets aborted
+3763.165 (4) Checking if we have a zip executable available
+3763.166 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+3763.167 (4) Creation of backups of directories: already finished
+3763.167 (4) Saving backup status to database (elements: 8)
+3763.171 (4) Database dump (WordPress DB): Creation was completed already
+3763.173 (4) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3763.174 (4) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3763.174 (4) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3763.175 (4) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+3763.176 (4) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+3763.177 (4) Saving backup history. Total backup size: 60.1 MB
+3763.178 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+3763.179 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3763.180 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+3763.246 (4) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+3763.247 (4) An error condition has occurred for the first time during this job
+3763.249 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+3763.250 (4) Number of backup sets in history: 1; groups (db): 1
+3763.250 (4) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+3763.251 (4) This backup set is the backup set just made, so will not be deleted.
+3763.251 (4) Number of backup sets in history: 1; groups (files): 1
+3763.254 (4) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+3763.254 (4) This backup set is the backup set just made, so will not be deleted.
+3763.256 (4) This backup set is the backup set just made, so will not be deleted.
+3763.256 (4) This backup set is the backup set just made, so will not be deleted.
+3763.256 (4) This backup set is the backup set just made, so will not be deleted.
+3763.256 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3763.257 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+3763.259 (4) Resume backup (b3882c5c9875, 4): finish run
+3763.260 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3763.262 (4) No email will/can be sent - the user has not configured an email address.
+3763.263 (4) The backup has not finished; a resumption is scheduled
+4728.056 (5) Opened log file at time: Mon, 24 Jan 2022 20:02:53 +0000 on https://www.eas-environmental.co.uk
+4728.057 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+4728.087 (5) Free space on disk containing Updraft's temporary directory: 32128.9 MB
+4728.090 (5) Backup run: resumption=5, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (4728s ago), job type=backup
+4728.091 (5) Scheduling a resumption (6) after 300 seconds (1643054873) in case this run gets aborted
+4728.098 (5) Checking if we have a zip executable available
+4728.099 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+4728.100 (5) Creation of backups of directories: already finished
+4728.101 (5) Saving backup status to database (elements: 8)
+4728.105 (5) Database dump (WordPress DB): Creation was completed already
+4728.108 (5) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4728.109 (5) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4728.110 (5) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4728.110 (5) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+4728.111 (5) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+4728.112 (5) Saving backup history. Total backup size: 60.1 MB
+4728.113 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+4728.116 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4728.116 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+4728.308 (5) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+4728.309 (5) An error condition has occurred for the first time during this job
+4728.311 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+4728.313 (5) Number of backup sets in history: 1; groups (db): 1
+4728.313 (5) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+4728.314 (5) This backup set is the backup set just made, so will not be deleted.
+4728.314 (5) Number of backup sets in history: 1; groups (files): 1
+4728.315 (5) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+4728.315 (5) This backup set is the backup set just made, so will not be deleted.
+4728.316 (5) This backup set is the backup set just made, so will not be deleted.
+4728.316 (5) This backup set is the backup set just made, so will not be deleted.
+4728.316 (5) This backup set is the backup set just made, so will not be deleted.
+4728.316 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4728.316 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+4728.318 (5) Resume backup (b3882c5c9875, 5): finish run
+4728.320 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4728.322 (5) No email will/can be sent - the user has not configured an email address.
+4728.322 (5) The backup has not finished; a resumption is scheduled
+7420.697 (6) Opened log file at time: Mon, 24 Jan 2022 20:47:45 +0000 on https://www.eas-environmental.co.uk
+7420.699 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 19M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+7420.727 (6) Free space on disk containing Updraft's temporary directory: 32128.4 MB
+7420.729 (6) Backup run: resumption=6, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (7421s ago), job type=backup
+7420.730 (6) Long time past since expected resumption time: approx expected=1643054873.3, now=1643057266, diff=2392.6
+7420.731 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7420.733 (6) Scheduling a resumption (7) after 300 seconds (1643057566) in case this run gets aborted
+7420.739 (6) Checking if we have a zip executable available
+7420.740 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+7420.740 (6) Creation of backups of directories: already finished
+7420.741 (6) Saving backup status to database (elements: 8)
+7420.745 (6) Database dump (WordPress DB): Creation was completed already
+7420.748 (6) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7420.749 (6) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+7420.750 (6) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7420.751 (6) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+7420.753 (6) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+7420.754 (6) Saving backup history. Total backup size: 60.1 MB
+7420.756 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+7420.759 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+7420.760 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+7420.943 (6) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+7420.944 (6) An error condition has occurred for the first time during this job
+7420.947 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+7420.948 (6) Number of backup sets in history: 1; groups (db): 1
+7420.949 (6) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+7420.950 (6) This backup set is the backup set just made, so will not be deleted.
+7420.950 (6) Number of backup sets in history: 1; groups (files): 1
+7420.951 (6) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+7420.951 (6) This backup set is the backup set just made, so will not be deleted.
+7420.951 (6) This backup set is the backup set just made, so will not be deleted.
+7420.952 (6) This backup set is the backup set just made, so will not be deleted.
+7420.952 (6) This backup set is the backup set just made, so will not be deleted.
+7420.952 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+7420.952 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7420.955 (6) Resume backup (b3882c5c9875, 6): finish run
+7420.956 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7420.957 (6) No email will/can be sent - the user has not configured an email address.
+7420.958 (6) The backup has not finished; a resumption is scheduled
+7802.471 (7) Opened log file at time: Mon, 24 Jan 2022 20:54:07 +0000 on https://www.eas-environmental.co.uk
+7802.472 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+7802.496 (7) Free space on disk containing Updraft's temporary directory: 32128.4 MB
+7802.498 (7) Backup run: resumption=7, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (7802s ago), job type=backup
+7802.500 (7) Scheduling a resumption (8) after 300 seconds (1643057947) in case this run gets aborted
+7802.506 (7) Checking if we have a zip executable available
+7802.507 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+7802.508 (7) Creation of backups of directories: already finished
+7802.509 (7) Saving backup status to database (elements: 8)
+7802.513 (7) Database dump (WordPress DB): Creation was completed already
+7802.516 (7) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7802.517 (7) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+7802.517 (7) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7802.517 (7) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+7802.518 (7) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+7802.519 (7) Saving backup history. Total backup size: 60.1 MB
+7802.520 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+7802.522 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+7802.522 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+7802.578 (7) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+7802.580 (7) An error condition has occurred for the first time during this job
+7802.582 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+7802.583 (7) Number of backup sets in history: 1; groups (db): 1
+7802.583 (7) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+7802.584 (7) This backup set is the backup set just made, so will not be deleted.
+7802.584 (7) Number of backup sets in history: 1; groups (files): 1
+7802.585 (7) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+7802.585 (7) This backup set is the backup set just made, so will not be deleted.
+7802.586 (7) This backup set is the backup set just made, so will not be deleted.
+7802.586 (7) This backup set is the backup set just made, so will not be deleted.
+7802.586 (7) This backup set is the backup set just made, so will not be deleted.
+7802.586 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+7802.587 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7802.589 (7) Resume backup (b3882c5c9875, 7): finish run
+7802.591 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7802.593 (7) No email will/can be sent - the user has not configured an email address.
+7802.594 (7) The backup has not finished; a resumption is scheduled
+8877.523 (8) Opened log file at time: Mon, 24 Jan 2022 21:12:02 +0000 on https://www.eas-environmental.co.uk
+8877.525 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+8877.562 (8) Free space on disk containing Updraft's temporary directory: 32128.1 MB
+8877.565 (8) Backup run: resumption=8, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (8877s ago), job type=backup
+8877.566 (8) Long time past since expected resumption time: approx expected=1643057947.7, now=1643058722.8, diff=775.1
+8877.566 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+8877.568 (8) Scheduling a resumption (9) after 300 seconds (1643059022) in case this run gets aborted
+8877.574 (8) Checking if we have a zip executable available
+8877.576 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+8877.576 (8) Creation of backups of directories: already finished
+8877.577 (8) Saving backup status to database (elements: 8)
+8877.582 (8) Database dump (WordPress DB): Creation was completed already
+8877.585 (8) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8877.585 (8) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+8877.585 (8) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8877.586 (8) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+8877.587 (8) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+8877.587 (8) Saving backup history. Total backup size: 60.1 MB
+8877.589 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+8877.591 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+8877.592 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+8877.856 (8) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+8877.860 (8) An error condition has occurred for the first time during this job
+8877.862 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+8877.864 (8) Number of backup sets in history: 1; groups (db): 1
+8877.864 (8) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+8877.865 (8) This backup set is the backup set just made, so will not be deleted.
+8877.865 (8) Number of backup sets in history: 1; groups (files): 1
+8877.866 (8) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+8877.866 (8) This backup set is the backup set just made, so will not be deleted.
+8877.866 (8) This backup set is the backup set just made, so will not be deleted.
+8877.866 (8) This backup set is the backup set just made, so will not be deleted.
+8877.866 (8) This backup set is the backup set just made, so will not be deleted.
+8877.866 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8877.867 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+8877.869 (8) Resume backup (b3882c5c9875, 8): finish run
+8877.870 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8877.872 (8) No email will/can be sent - the user has not configured an email address.
+8877.872 (8) The backup has not finished; a resumption is scheduled
+9239.618 (9) Opened log file at time: Mon, 24 Jan 2022 21:18:04 +0000 on https://www.eas-environmental.co.uk
+9239.619 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.9 PHP: 7.2.34 (fpm-fcgi, Linux web2.adtrakcommunity.co.uk 5.16.2-1.el7.elrepo.x86_64 #1 SMP PREEMPT Tue Jan 18 15:20:52 EST 2022 x86_64) MySQL: 10.2.41-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.8M | 20M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+9239.641 (9) Free space on disk containing Updraft's temporary directory: 32128.1 MB
+9239.644 (9) Backup run: resumption=9, nonce=b3882c5c9875, file_nonce=b3882c5c9875 begun at=1643049845 (9239s ago), job type=backup
+9239.646 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+9239.647 (9) Scheduling a resumption (10) after 300 seconds (1643059384); but the job will then be aborted unless something happens this time
+9239.654 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+9239.655 (9) Creation of backups of directories: already finished
+9239.655 (9) Saving backup status to database (elements: 8)
+9239.660 (9) Database dump (WordPress DB): Creation was completed already
+9239.663 (9) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9239.663 (9) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9239.664 (9) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9239.665 (9) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-others.zip: others: This file has not yet been successfully uploaded: will queue
+9239.665 (9) backup_2022-01-24-1844_EAS_Environmental_b3882c5c9875-db.gz: db: This file has not yet been successfully uploaded: will queue
+9239.666 (9) Saving backup history. Total backup size: 60.1 MB
+9239.668 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+9239.670 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+9239.672 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b4160f790115dbc4a9afe9fd514306b1)
+9239.748 (9) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to auth.updraftplus.com:443 ) (http_request_failed)
+9239.749 (9) An error condition has occurred for the first time during this job
+9239.752 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+9239.753 (9) Number of backup sets in history: 1; groups (db): 1
+9239.754 (9) Examining (for databases) backup set with group_id=0, nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+9239.755 (9) This backup set is the backup set just made, so will not be deleted.
+9239.755 (9) Number of backup sets in history: 1; groups (files): 1
+9239.756 (9) Examining (for files) backup set with nonce=b3882c5c9875, datestamp=1643049845 (Jan 24 2022 18:44:05)
+9239.756 (9) This backup set is the backup set just made, so will not be deleted.
+9239.757 (9) This backup set is the backup set just made, so will not be deleted.
+9239.758 (9) This backup set is the backup set just made, so will not be deleted.
+9239.758 (9) This backup set is the backup set just made, so will not be deleted.
+9239.758 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+9239.759 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+9239.762 (9) Resume backup (b3882c5c9875, 9): finish run
+9239.764 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+9239.766 (9) No email will/can be sent - the user has not configured an email address.
+9239.767 (9) The backup attempt has finished, apparently unsuccessfully
