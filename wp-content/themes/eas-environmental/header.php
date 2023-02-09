@@ -83,6 +83,8 @@
 
 		        <?php include locate_template('parts/phone-top-right.php'); ?>
 
+				
+
 			</div>
 			
 			<div class="header-main">
@@ -106,6 +108,10 @@
 						?>
 					</nav>
 
+				</div>
+
+				<div class="notice">
+					<p>We are closed on Friday 10th Feb for stock taking and will re-open on Saturday. We apologise for any inconvenience caused.</p>
 				</div>
 
 			</div>
